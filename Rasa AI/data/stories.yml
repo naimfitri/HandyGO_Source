@@ -1,0 +1,118 @@
+version: "3.1"
+
+stories:
+# Combined story for all service requests
+- story: report any service issue
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - or:
+    - intent: report_issue_plumber
+    - intent: report_issue_electrician
+    - intent: report_issue_AC
+    - intent: report_issue_appliancetech
+    - intent: report_issue_carpenter
+    - intent: report_issue_cleaner
+    - intent: report_issue_fence
+    - intent: report_issue_gardener
+    - intent: report_issue_glass
+    - intent: report_issue_IT
+    - intent: report_issue_locksmith
+    - intent: report_issue_painter
+    - intent: report_issue_pest
+    - intent: report_issue_roofer
+    - intent: report_issue_tiler
+  - action: action_suggest_handyman
+  - intent: select_handyman
+  - action: action_book_handyman
+  - action: action_check_availability
+  - intent: choose_slot_and_date
+    entities:
+      - chosen_slot
+      - chosen_date
+  - action: action_show_booking_details
+  - intent: confirm_booking
+  - action: action_confirm_booking
+
+# Story for handymen from other locations
+- story: user wants to see handymen from other locations
+  steps:
+  - or:
+    - intent: report_issue_plumber
+    - intent: report_issue_electrician
+    - intent: report_issue_AC
+    - intent: report_issue_appliancetech
+    - intent: report_issue_carpenter
+    - intent: report_issue_cleaner
+    - intent: report_issue_fence
+    - intent: report_issue_gardener
+    - intent: report_issue_glass
+    - intent: report_issue_IT
+    - intent: report_issue_locksmith
+    - intent: report_issue_painter
+    - intent: report_issue_pest
+    - intent: report_issue_roofer
+    - intent: report_issue_tiler
+  - action: action_suggest_handyman
+  - intent: show_other_locations
+  - action: action_show_other_locations
+  - intent: select_handyman
+  - action: action_book_handyman
+  - action: action_check_availability
+  - intent: choose_slot_and_date
+    entities:
+      - chosen_slot
+      - chosen_date
+  - action: action_show_booking_details
+  - intent: confirm_booking
+  - action: action_confirm_booking
+
+# Story for canceling when no local handymen
+# - story: user cancels when no local handymen
+#   steps:
+#   - or:
+#     - intent: report_issue_plumber
+#     - intent: report_issue_electrician
+#     - intent: report_issue_AC
+#     - intent: report_issue_appliancetech
+#     - intent: report_issue_carpenter
+#     - intent: report_issue_cleaner
+#     - intent: report_issue_fence
+#     - intent: report_issue_gardener
+#     - intent: report_issue_glass
+#     - intent: report_issue_IT
+#     - intent: report_issue_locksmith
+#     - intent: report_issue_painter
+#     - intent: report_issue_pest
+#     - intent: report_issue_roofer
+#     - intent: report_issue_tiler
+#   - action: action_suggest_handyman
+#   - intent: cancel_request
+#   - action: utter_cancel_request
+
+# Story for canceling a booking
+- story: cancel booking
+  steps:
+  - intent: cancel_booking
+  - action: action_cancel_booking
+  - action: utter_cancel_booking
+
+# Story for canceling a request
+- story: cancel request
+  steps:
+  - intent: cancel_request
+  - action: action_cancel_request
+  
+# Story for easy booking
+- story: easy book flow
+  steps:
+  - intent: easy_book
+  - action: action_easy_book
+  - intent: confirm_booking
+  - action: action_confirm_booking
+
+# Story for canceling easy booking
+- story: cancel easy booking
+  steps:
+  - intent: cancel_request  # Add this intent step
+  - action: action_cancel_request  # Change from utter_cancel_request

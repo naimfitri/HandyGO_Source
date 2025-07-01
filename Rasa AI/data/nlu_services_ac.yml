@@ -1,0 +1,212 @@
+version: "3.1"
+
+nlu:
+- intent: report_issue_AC
+  examples: |
+    - my AC is not cooling
+    - need help with the air conditioner
+    - AC is making noise
+    - air conditioner repair
+    - my AC stopped working
+    - "i cant control my ac using the remote, i have tried using a new remote, but still cant"
+    - my air cond is not cols anymore
+    - I need to install a new air-conditioner in my room.
+    - I want to service my air-conditioner.
+    - Water is dripping from my air-conditioner
+    - my aircond blinking red
+    - Bang servis AC berapa ringgit bang
+    - My air-conditioner isn't cooling properly
+    - I need to install a new air-conditioner in my room
+    - my aircond piping is leaking
+    - My air-conditioning is leaking
+    - My air-conditioner is dripping waters.
+    - Few minutes after turning on my air conditioner, water start leaking.
+    - My air conditioning needs to be serviced
+    - My air-conditioner isn't cooling properly
+    - My room so hot, my ac has been hungry you can see his saliva dropping, my room from hell can change to heaven?🗿
+    - My Conditioner didn't functioning well and has a dripping water from the air conditioner
+    - Air conditioner servicing or cleaning
+    - Sometime my air-conditioner isn't cooling properly?
+    - My air-conditioner isn't cooling properly. It's running, but the room never seems to get cold enough. I've cleaned the filter, but it still doesn't seem to be working as it should. Can you check it out?
+    - I need to clean my Air conditioner 
+    - There is a strange odor coming from my air conditioner
+    - My aircond is not cool anymore
+    - AC making strange clicking sounds
+    - How often should I service my air conditioner?
+    - Air conditioner vibrating loudly
+    - Need to relocate AC unit
+    - My air conditioner keeps turning on and off
+    - AC blows warm air
+    - Need new AC unit installation
+    - Air conditioner not responding to thermostat
+    - How much for yearly AC maintenance?
+    - My AC unit is frozen
+    - Air conditioner making grinding noise
+    - Need to replace air conditioner filter
+    - AC unit is too noisy
+    - How to improve AC efficiency?
+    - My room feels humid even with AC on
+    - Need quote for inverter air conditioner
+    - AC smells musty when turned on
+    - Air conditioner tripping breaker
+    - Can you install split system AC?
+    - AC remote control not working
+    - The AC just stopped suddenly and won't turn back on
+    - My aircond is not responding to the remote
+    - The AC power light is blinking continuously
+    - Why is my aircond blowing hot air?
+    - The aircon is running but not producing cold air
+    - I think the compressor of my AC is faulty
+    - My AC emits a burning smell when turned on
+    - Can someone fix my leaking air conditioner?
+    - I want to move my AC to another room
+    - My AC turns off by itself after a few minutes
+    - The fan inside my air conditioner isn't working
+    - My AC doesn’t cool even at 16 degrees
+    - The AC unit outside is making a rattling noise
+    - I need help replacing my old aircond
+    - My air conditioner won’t respond to temperature changes
+    - The cooling is very weak even on full power
+    - Can you help clean the condenser of my AC?
+    - I think my AC is low on gas
+    - There's mold smell coming from my AC vents
+    - I want to book an AC cleaning service
+    - Can I get a technician for AC inspection?
+    - The aircond display is not showing anything
+    - My air conditioner smells like something’s burning
+    - Please help fix my noisy air conditioner
+    - Can you repair a window-type air conditioner?
+    - The aircond trips the power whenever I switch it on
+    - Water is pooling below my AC
+    - My air conditioning unit is too old, should I replace it?
+    - I need a certified technician for my AC
+    - The thermostat isn't controlling the AC correctly
+    - AC airflow is very low
+    - The AC makes a humming sound but doesn’t start
+    - The AC pipe is clogged I think
+    - I can't control the AC through the app anymore
+    - The room doesn't get cold even after 2 hours
+    - My electricity bill is too high because of my AC
+    - Can you refill the AC gas?
+    - The AC is working but it’s not cold enough
+    - My AC works for a while then shuts down
+    - Need someone to check my aircond compressor
+    - AC cooling is uneven across the room
+    - I think the refrigerant is leaking
+    - Please service both my indoor and outdoor AC units
+    - My AC runs continuously and won’t turn off
+    - The swing function on my AC is not working
+    - My AC emits a strange noise when changing modes
+    - The drain pipe of the AC is blocked
+    - My air conditioner froze up and now nothing works
+    - The cooling coils are all iced up
+    - Please help me with AC maintenance service
+    - The AC remote sensor is not detecting signals
+    - Can I get a quote for aircond troubleshooting?
+    - My AC is leaking water onto the floor
+    - The AC display panel is not lighting up
+    - My air conditioner is blowing dust
+    - AC unit smells like chemicals
+    - My aircond is making a beeping noise
+    - The AC timer function is not working
+    - My air conditioner is not turning off
+    - The AC is stuck on one mode
+    - My air conditioner is not responding to voice commands
+    - The AC filter indicator keeps blinking
+    - My AC is not connecting to WiFi
+    - The air conditioner is not draining water properly
+    - AC is blowing out hot air instead of cold
+    - My aircond is making a whistling sound
+    - The AC is not oscillating
+    - My air conditioner is not dehumidifying the room
+    - The AC remote is not pairing with the unit
+    - My AC is not cooling evenly in the room
+    - The air conditioner is dripping from the front panel
+    - My AC is not switching between cool and heat modes
+    - The AC is not responding to the timer setting
+    - My air conditioner is not starting after a power cut
+    - The AC is making a buzzing noise
+    - My aircond is not blowing any air
+    - The AC is showing an error code
+    - My air conditioner is not responding to the app
+    - The AC is not blowing strong enough
+    - My aircond is leaking gas
+    - The AC is not cooling after gas refill
+    - My air conditioner is not switching on with the main switch
+    - The AC is not responding to the wall control
+    - My aircond is making a ticking sound
+    - The AC is not cooling the entire room
+    - My air conditioner is not responding to the thermostat
+    - The AC is not heating the room
+    - My aircond is not working after a thunderstorm
+    - The AC is not responding to the new remote
+    - My air conditioner is not cooling after cleaning
+    - The AC is not responding to the power button
+    - My aircond is not cooling during the day
+    - The AC is not cooling at night
+    - My air conditioner is not cooling after moving it
+    - The AC is not cooling after installation
+    - My aircond is not cooling after servicing
+    - The AC is not cooling after filter replacement
+    - My air conditioner is not cooling after maintenance
+    - The AC is not cooling after repair
+    - My aircond is not cooling after gas top-up
+    - The AC is not cooling after compressor replacement
+    - My air conditioner is not cooling after capacitor change
+    - The AC is not cooling after thermostat replacement
+    - My aircond is not cooling after fan replacement
+    - The AC is not cooling after PCB replacement
+    - My air conditioner is not cooling after sensor replacement
+    - The AC is not cooling after motor replacement
+    - My aircond is not cooling after coil cleaning
+    - The AC is not cooling after duct cleaning
+    - My air conditioner is not cooling after vent cleaning
+    - The AC is not cooling after outdoor unit cleaning
+    - My aircond is not cooling after indoor unit cleaning
+    - The AC is not cooling after refrigerant refill
+    - My air conditioner is not cooling after leak repair
+    - The AC is not cooling after pipe replacement
+    - My aircond is not cooling after valve replacement
+    - The AC is not cooling after fuse replacement
+    - My air conditioner is not cooling after breaker reset
+    - The AC is not cooling after power surge
+    - My aircond is not cooling after blackout
+    - The AC is not cooling after brownout
+    - My air conditioner is not cooling after voltage fluctuation
+    - The AC is not cooling after lightning strike
+    - My aircond is not cooling after heavy rain
+    - The AC is not cooling after flood
+    - My air conditioner is not cooling after storm
+    - The AC is not cooling after hail
+    - My aircond is not cooling after snow
+    - The AC is not cooling after ice buildup
+    - My air conditioner is not cooling after frost
+    - The AC is not cooling after defrost
+    - My aircond is not cooling after thaw
+    - The AC is not cooling after freeze
+    - My air conditioner is not cooling after overheating
+    - The AC is not cooling after overcooling
+    - My aircond is not cooling after undercooling
+    - The AC is not cooling after overloading
+    - My air conditioner is not cooling after underloading
+    - The AC is not cooling after short circuit
+    - My aircond is not cooling after open circuit
+    - The AC is not cooling after ground fault
+    - My air conditioner is not cooling after insulation failure
+    - The AC is not cooling after wiring issue
+    - My aircond is not cooling after connection issue
+    - The AC is not cooling after loose connection
+    - My air conditioner is not cooling after tight connection
+    - The AC is not cooling after broken connection
+    - My aircond is not cooling after fixed connection
+    - The AC is not cooling after replaced connection
+    - My air conditioner is not cooling after repaired connection
+    - The AC is not cooling after checked connection
+    - My aircond is not cooling after tested connection
+    - The AC is not cooling after inspected connection
+    - My air conditioner is not cooling after cleaned connection
+    - The AC is not cooling after serviced connection
+    - My aircond is not cooling after maintained connection
+    - The AC is not cooling after adjusted connection
+    - My air conditioner is not cooling after calibrated connection
+    - The AC is not cooling after aligned connection

@@ -1,0 +1,215 @@
+version: "3.1"
+
+nlu:
+- intent: report_issue_roofer
+  examples: |    
+    - "my roof is leaking even if it's not raining"
+    - my roof is leaking
+    - My roof is leaking during rain
+    - My roof is leaking.
+    - My roof is leaking during rain
+    - my roof missing after storm
+    - Bang bumbung saya bocor bang
+    - My roof is leaking during rain
+    - My roof is leaking during rain
+    - My roof moves during strong winds 
+    - My roof is leaking
+    - My ceiling fan is broken. Can you help to repair and install the new one for me?
+    - My roof tiles are missing and replacements are needed
+    - rain water are leaking on my ceiling
+    - My roof has hole  robber can come in ,  everynight i got shit from a bird cause of roof has hole, 
+    - My roof is leaking when it rains, and I’ve noticed some water stains on the ceiling in the living room."
+    - Replacing or installing roof tiles
+    - my roof is leaking during raining.
+    - "My roof is leaking whenever it rains, and water is dripping into the attic. I think it might be coming from a spot where the shingles are damaged. Can you come out and take a look to see what needs to be fixed?"
+    - My roof are leaking
+    - My roof is leaking, and I have noticed water stains on the ceiling
+    - My gutters are partially clogged
+    - My roof leaks near the chimney
+    - Water is dripping through the ceiling
+    - I found mold on my ceiling after the rain
+    - Roof shingles are cracked and loose
+    - The flashing around my roof vents is damaged
+    - I need help fixing my leaking roof
+    - Storm damaged several roof shingles
+    - Roof leaks every time it rains heavily
+    - Water stains spreading across my ceiling
+    - My roof gutter is clogged and overflowing
+    - The roof ridge is lifting in strong wind
+    - My attic smells musty due to roof leak
+    - There is a hole in the roof after the storm
+    - Rainwater leaks into the bedroom through the ceiling
+    - The roof tiles are slipping off
+    - My roof feels unstable in high winds
+    - I need a roofer to inspect my roof damage
+    - Missing shingles after recent hailstorm
+    - Water is pooling on the roof and leaking inside
+    - I want to replace old roof shingles
+    - Roof leaks causing damage to ceiling paint
+    - Roof tiles cracked after heavy windstorm
+    - Roof vents are leaking water inside
+    - Roof tiles blown away by strong wind
+    - I want to repair roof damage from hail
+    - Roof leaks near the skylight window
+    - Roof leaks after heavy rainstorm
+    - My roof tiles are broken and missing pieces
+    - The roof ridge cap is loose and leaking
+    - Water dripping into the hallway from roof leak
+    - Roof gutter needs cleaning to prevent leaks
+    - Leaking roof causing ceiling plaster to crack
+    - Roof is sagging in one corner
+    - I need a roof inspection for water damage
+    - Roof tiles displaced after recent storm
+    - Roof leaks when it rains hard
+    - Water stains on bedroom ceiling from roof leak
+    - Roof flashing around chimney is cracked
+    - Rainwater leaking through roof joints
+    - My roof leaks every time there’s heavy rain
+    - Loose shingles need replacing on my roof
+    - My roof gutter is broken and leaking water
+    - Roof leaks causing mold growth inside attic
+    - Roof tiles missing and need to be replaced
+    - Roof leaks causing damage to insulation
+    - I want to fix water leaks on my roof
+    - Roof leaks causing damage to ceiling drywall
+    - Roof shingles curling and letting water in
+    - Roof vents need sealing to prevent leaks
+    - Water leaking into the ceiling during storms
+    - My roof leaks at the valley junction
+    - Roof flashing needs replacing after damage
+    - Roof tiles damaged from falling tree branches
+    - Leaking roof causing damage to walls
+    - Roof leaks causing water spots on ceiling
+    - Roof tiles have come loose after the storm
+    - My roof has a leak near the eaves
+    - Water dripping from the attic ceiling
+    - Roof shingles missing after strong winds
+    - Roof leaks causing water to drip inside
+    - I want to repair leaking roof near skylight
+    - Roof gutter blocked and causing leaks
+    - Roof tiles cracked from hail damage
+    - Roof leaks causing ceiling paint to peel
+    - Roof is leaking water inside the house
+    - Roof tiles need replacing after storm damage
+    - Water leaking into living room from roof
+    - Roof ridge flashing is loose and leaking
+    - Roof leak causing wood rot in ceiling
+    - Roof tiles falling off during heavy wind
+    - Roof leak around the chimney area
+    - Roof gutter broken and needs repair
+    - Roof leaks causing damage to attic insulation
+    - Water leaking inside through roof gaps
+    - Roof tiles missing and exposing underlayment
+    - Roof leak causing stains on bedroom ceiling
+    - Roof tiles loose and need fixing
+    - Roof vents leaking water inside house
+    - Water pooling on roof and leaking inside
+    - Roof flashing around vents needs repair
+    - Roof leaks causing damage to ceiling plaster
+    - I want to replace damaged roof tiles
+    - Roof leaks every time it rains heavily
+    - Roof tiles blown off during recent storm
+    - Water dripping into hallway from roof leak
+    - My roof is leaking after heavy rain last night
+    - The roof tiles fell off after thunderstorm
+    - My ceiling is stained after monsoon season
+    - The roof is leaking after balik kampung
+    - My roof tiles cracked after Hari Raya open house
+    - The roof is leaking after kenduri at home
+    - My roof gutter is clogged after rainy season
+    - The roof is leaking after festive season
+    - My roof tiles are missing after strong wind
+    - The roof is leaking after Gawai celebration
+    - My roof is leaking after Deepavali
+    - The roof tiles are loose after school holidays
+    - My roof is leaking after Christmas party
+    - The roof gutter is blocked after thunderstorm
+    - My roof is leaking after family gathering
+    - The roof tiles are broken after BBQ party
+    - My roof is leaking after balik kampung trip
+    - The roof is leaking after bazaar Ramadan
+    - My roof tiles are missing after festive holidays
+    - The roof is leaking after Kaamatan
+    - My roof is leaking after bazaar Aidilfitri
+    - The roof tiles are cracked after open house
+    - My roof is leaking after wedding event
+    - The roof gutter is leaking after heavy rain
+    - My roof is leaking after bazaar Deepavali
+    - The roof tiles are loose after balik kampung
+    - My roof is leaking after Hari Raya Haji
+    - The roof is leaking after family dinner
+    - My roof tiles are broken after kenduri
+    - The roof is leaking after bazaar Christmas
+    - My roof is leaking after school holidays
+    - The roof tiles are missing after festive season
+    - My roof is leaking after Hari Raya Korban
+    - The roof is leaking after family potluck
+    - My roof tiles are cracked after balik kampung
+    - The roof is leaking after bazaar Kaamatan
+    - My roof is leaking after family reunion
+    - The roof tiles are loose after festive holidays
+    - My roof is leaking after Hari Gawai
+    - The roof is leaking after bazaar Gawai
+    - My roof tiles are broken after open house event
+    - The roof is leaking after balik kampung for Raya
+    - My roof is leaking after bazaar Hari Raya
+    - The roof tiles are missing after thunderstorm last week
+    - My roof is leaking after family karaoke night
+    - The roof is leaking after bazaar Aidilfitri event
+    - My roof tiles are cracked after festive season
+    - The roof is leaking after balik kampung for Deepavali
+    - My roof is leaking after bazaar Deepavali event
+    - The roof tiles are loose after family gathering
+    - My roof is leaking after Hari Raya Aidilfitri
+    - The roof is leaking after bazaar Christmas event
+    - My roof tiles are broken after balik kampung trip
+    - The roof is leaking after family movie night
+    - The roof tiles are missing after festive holidays
+    - My roof is leaking after Hari Raya Puasa
+    - The roof is leaking after bazaar Gawai event
+    - My roof tiles are cracked after balik kampung for Raya
+    - The roof is leaking after family potluck dinner
+    - The roof tiles are loose after festive season
+    - My roof is leaking after Hari Raya open house
+    - The roof is leaking after bazaar Aidilfitri trip
+    - My roof tiles are broken after balik kampung for Deepavali
+    - The roof is leaking after family reunion dinner
+    - The roof tiles are missing after festive event
+    - My roof is leaking after Hari Raya Korban event
+    - The roof is leaking after bazaar Kaamatan event
+    - My roof tiles are cracked after balik kampung for Christmas
+    - The roof is leaking after family gathering last weekend
+    - The roof tiles are loose after festive holidays
+    - My roof is leaking after Hari Raya Haji event
+    - The roof is leaking after bazaar Christmas trip
+    - My roof tiles are broken after balik kampung for Gawai
+    - The roof is leaking after family karaoke night event
+    - The roof tiles are missing after festive season
+    - My roof is leaking after Hari Gawai event
+    - The roof is leaking after bazaar Gawai trip
+    - My roof tiles are cracked after balik kampung for Kaamatan
+    - The roof is leaking after family dinner last night
+    - The roof tiles are loose after festive event
+    - My roof is leaking after Hari Raya Aidilfitri event
+    - The roof is leaking after bazaar Aidilfitri dinner
+    - My roof tiles are broken after balik kampung for Hari Raya
+    - The roof is leaking after family movie night event
+    - The roof tiles are missing after festive holidays
+    - My roof is leaking after Hari Raya Puasa event
+    - The roof is leaking after bazaar Gawai dinner
+    - My roof tiles are cracked after balik kampung for Aidilfitri
+    - The roof is leaking after family potluck event
+    - The roof tiles are loose after festive season
+    - My roof is leaking after Hari Raya open house event
+    - The roof is leaking after bazaar Aidilfitri gathering
+    - My roof tiles are broken after balik kampung for Hari Raya Haji
+    - The roof is leaking after family reunion event
+    - The roof tiles are missing after festive event
+    - My roof is leaking after Hari Raya Korban dinner
+    - The roof is leaking after bazaar Kaamatan dinner
+    - My roof tiles are cracked after balik kampung for Gawai
+    - The roof is leaking after family gathering last night
+    - The roof tiles are loose after festive holidays
+    - My roof is leaking after Hari Gawai dinner
+    - The roof is leaking after bazaar Gawai gathering
+    - My roof tiles are broken after balik kampung for Kaamatan

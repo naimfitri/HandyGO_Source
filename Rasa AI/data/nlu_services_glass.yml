@@ -1,0 +1,212 @@
+version: "3.1"
+
+nlu:
+- intent: report_issue_glass
+  examples: |    
+    - "i want to replace my old glass to a new one"
+    - help me replace my window
+    - My window glass is broken
+    - Please install a glass door in my bedroom.
+    - Theres a crack in my glass table
+    - how to fix broken glass window
+    - Bang nak install sliding door berapa bang
+    - There’s a crack in my glass table
+    - My window glass is broken
+    - i need to change my slide window
+    - The glass seal is broken
+    - My window glass is broken.
+    - There's a crack on one if my window. 
+    - My window glass is broken and needs to be replaced
+    - my windows are broken
+    - I dont know why my window have ac suddenly, my door cant see through on bathroom change please, my son make my table so stylish
+    - "My window glass is broken, and there's a large crack in it. I need it replaced as soon as possible to keep out the 
+    - Installing glass doors or panels
+    - I need a glass door installed
+    - My window glass is cracked. It's a single-pane window, and the crack runs along the bottom. Can you replace the glass and make sure it's sealed properly?
+    - I want a glass door as my front door
+    - My window glass is broken
+    - My window glass is broken
+    - I need to fix a crack in my window
+    - The glass on my bathroom door is foggy and I want to change it
+    - Can you replace my broken sliding glass door?
+    - My kitchen window is shattered
+    - There is a chip in my car window, can you fix glass?
+    - I want frosted glass installed in my bathroom
+    - The glass door is off its tracks
+    - Can you help me repair a broken glass shelf?
+    - My coffee table glass broke, need a replacement
+    - I want to replace clear glass with tinted one
+    - My glass door isn’t closing properly
+    - Can you fix the cracked mirror in my hallway?
+    - My glass cabinet door is cracked
+    - One of the window panes is completely shattered
+    - I need tempered glass for my patio door
+    - I want soundproof glass installed
+    - There’s moisture trapped between the window glass panes
+    - Can I install safety glass in the kids' room?
+    - Need new glass for balcony railing
+    - I broke the glass on my tabletop and need a new one
+    - Can you repair the broken showcase glass?
+    - I need to install a glass partition
+    - My bathroom glass panel is loose
+    - The glass on my sliding door is shattered
+    - My wardrobe glass door is broken
+    - I want to replace glass with acrylic
+    - There’s a hole in my window glass
+    - My display case has cracked glass
+    - I need mirrored glass for my closet doors
+    - Can you help with broken window glass due to storm?
+    - Replace all my windows with double-glazed glass
+    - Need glass panels for staircase railing
+    - The glass in my living room window vibrates in the wind
+    - Can you cut glass for custom shelves?
+    - I want to install a skylight with tempered glass
+    - My front door has shattered glass
+    - I want stained glass for my front window
+    - My garden window glass cracked after hitting it
+    - Replace broken frosted glass in bathroom
+    - I need laminated glass for added safety
+    - Can you add a new glass panel in my balcony?
+    - The corner of my window glass has chipped off
+    - I want a smart glass door installed
+    - Replace broken glass door in office
+    - My sunroof glass panel needs replacement
+    - I accidentally broke the oven door glass
+    - I want energy-efficient glass installed
+    - Replace broken glass on kitchen cabinet
+    - My room window cracked during the storm
+    - Broken window in my garage
+    - Can you change my window to UV-protect glass?
+    - I need heat-resistant glass for fireplace
+    - Install new glass for rooftop ventilation window
+    - My cat broke the balcony glass panel
+    - The shopfront glass has a visible crack
+    - I want a glass panel between my kitchen and dining area
+    - I dropped something and broke my side window
+    - The glass of the fish tank cracked
+    - There’s a big crack in my office glass partition
+    - I want to change my transparent door to frosted
+    - The glass panel on my staircase is loose
+    - The decorative glass in my main door is chipped
+    - Replace broken glass on the study room window
+    - There’s a spiderweb crack in the middle of the window
+    - My toddler threw a toy and cracked the glass
+    - One side of my sliding door has shattered
+    - The glass on my porch window rattles loudly
+    - My shop door glass broke
+    - I want triple-glazed windows for better insulation
+    - My showcase glass has a long crack
+    - Replace broken side panel on the door
+    - Can you provide safety glass for school windows?
+    - The window shattered after heavy wind
+    - I need a frosted panel for my office meeting room
+    - Change my window to reflective glass
+    - I want antique-style glass panes
+    - A piece of the glass chipped off the corner
+    - I need custom-size glass for a small window
+    - Can you reseal my double-pane window?
+    - My interior glass wall cracked
+    - The glass on my main door fell off
+    - I want colored glass for decoration
+    - I need to change my balcony glass to reinforced one
+    - My window glass cracked after thunderstorm
+    - The sliding door glass broke after open house
+    - My balcony glass shattered after heavy rain
+    - The glass on my porch door is foggy after haze
+    - My kitchen window glass broke after kenduri
+    - The glass on my main door is loose after renovation
+    - My shopfront glass cracked after festive season
+    - The glass on my bathroom window is stained after rain
+    - My glass table broke after family gathering
+    - The glass on my balcony door rattles after windstorm
+    - My window glass is leaking after monsoon rain
+    - The glass on my sliding door is scratched after moving furniture
+    - My glass panel broke after Hari Raya
+    - The glass on my kitchen cabinet shattered after cleaning
+    - My window glass cracked after balik kampung
+    - The glass on my shop door is chipped after bazaar
+    - My glass showcase broke after Gawai celebration
+    - The glass on my living room window is foggy after rain
+    - My glass partition cracked after Deepavali
+    - The glass on my car porch window is broken after storm
+    - My glass door is not closing after blackout
+    - The glass on my study room window cracked after exam week
+    - My glass shelf broke after Christmas party
+    - The glass on my fish tank cracked after moving house
+    - My window glass is loose after thunderstorm
+    - The glass on my kitchen window is foggy after festive season
+    - My glass door shattered after BBQ party
+    - The glass on my balcony railing is broken after kids played
+    - My glass table cracked after family dinner
+    - The glass on my bathroom door is foggy after hot shower
+    - My window glass is leaking after heavy rain
+    - The glass on my sliding door is loose after Hari Raya
+    - My glass panel broke after kenduri arwah
+    - The glass on my kitchen cabinet is chipped after cooking
+    - My window glass cracked after Deepavali
+    - The glass on my shopfront is foggy after rain
+    - My glass showcase broke after bazaar Ramadan
+    - The glass on my living room window is cracked after thunderstorm
+    - My glass partition shattered after open house
+    - The glass on my car window is chipped after pasar malam
+    - My glass door is not closing after balik kampung
+    - The glass on my study room window is foggy after rain
+    - My glass shelf cracked after family gathering
+    - The glass on my fish tank is leaking after cleaning
+    - My window glass is loose after monsoon season
+    - The glass on my kitchen window is stained after festive season
+    - My glass door shattered after family reunion
+    - The glass on my balcony railing is loose after storm
+    - My glass table broke after birthday party
+    - The glass on my bathroom door is chipped after cleaning
+    - My window glass is leaking after thunderstorm
+    - The glass on my sliding door is foggy after rain
+    - My glass panel broke after Hari Kaamatan
+    - The glass on my kitchen cabinet is loose after moving
+    - My window glass cracked after Gawai
+    - The glass on my shopfront is chipped after festive season
+    - My glass showcase broke after Deepavali
+    - The glass on my living room window is foggy after thunderstorm
+    - My glass partition cracked after Christmas
+    - The glass on my car porch window is leaking after rain
+    - My glass door is not closing after kenduri
+    - The glass on my study room window cracked after school holidays
+    - My glass shelf broke after Hari Raya
+    - The glass on my fish tank is cracked after moving
+    - My window glass is loose after festive season
+    - The glass on my kitchen window is foggy after open house
+    - My glass door shattered after balik kampung
+    - The glass on my balcony railing is broken after BBQ party
+    - My glass table cracked after kenduri
+    - The glass on my bathroom door is foggy after cleaning
+    - My window glass is leaking after storm
+    - The glass on my sliding door is loose after Deepavali
+    - My glass panel broke after Christmas party
+    - The glass on my kitchen cabinet is chipped after festive season
+    - My window glass cracked after Hari Raya Haji
+    - The glass on my shopfront is foggy after thunderstorm
+    - My glass showcase broke after Kaamatan
+    - The glass on my living room window is cracked after rain
+    - My glass partition shattered after family gathering
+    - The glass on my car window is chipped after bazaar
+    - My glass door is not closing after Gawai
+    - The glass on my study room window is foggy after festive season
+    - My glass shelf cracked after open house
+    - The glass on my fish tank is leaking after thunderstorm
+    - My window glass is loose after Christmas
+    - The glass on my kitchen window is stained after rain
+    - My glass door shattered after family dinner
+    - The glass on my balcony railing is loose after thunderstorm
+    - My glass table broke after school holidays
+    - The glass on my bathroom door is chipped after festive season
+    - My window glass is leaking after Deepavali
+    - The glass on my sliding door is foggy after thunderstorm
+    - My glass panel broke after Hari Raya Aidilfitri
+    - The glass on my kitchen cabinet is loose after cleaning
+    - My window glass cracked after Kaamatan
+    - The glass on my shopfront is chipped after rain
+    - My glass showcase broke after balik kampung
+    - The glass on my living room window is foggy after family gathering
+    - My glass partition cracked after kenduri
+    - The glass on my car porch window is leaking after festive season
+    - My glass door is not closing after Christmas

@@ -1,0 +1,156 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - report_issue_plumber
+  - report_issue_electrician
+  - report_issue_AC
+  - report_issue_appliancetech
+  - report_issue_carpenter
+  - report_issue_cleaner
+  - report_issue_fence
+  - report_issue_gardener
+  - report_issue_glass
+  - report_issue_IT
+  - report_issue_locksmith
+  - report_issue_painter
+  - report_issue_pest
+  - report_issue_roofer
+  - report_issue_tiler
+  - select_handyman
+  - confirm_booking
+  - cancel_booking
+  - choose_slot_and_date
+  - start_new_chat
+  - initialize_user_session
+  - show_other_locations
+  - cancel_request
+  - easy_book  # Add the new intent
+
+responses:
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
+  # New responses for handyman suggestions
+
+  utter_greet:
+    - text: "Hi! What can I do to help you today? 😊"
+
+  utter_ask_time:
+    - text: "What time would you like to book?"
+
+  utter_thank_you:
+    - text: "Thank you! Let me know if you need any more assistance."
+
+  utter_cancel_booking:
+    - text: "Your booking has been canceled. Let me know if you need further assistance."
+
+  utter_cancel_request:
+    - text: "I understand. Your request has been cancelled. Is there anything else I can help you with?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+  - action_book_handyman
+  - action_check_availability
+  - action_confirm_booking
+  - action_finalize_booking
+  - action_suggest_handyman
+  - action_show_booking_details
+  - action_cancel_booking
+  - action_reset_conversation
+  - action_initialize_user_session
+  - action_show_other_locations
+  - action_easy_book  # Add the new action
+  - action_cancel_request
+
+entities:
+  - problem
+  - handyman_name
+  - handyman_id
+  - time
+  - chosen_date
+  - chosen_slot
+  - booking_id  # Add this
+
+slots:
+  problem:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: problem
+
+  handyman_name:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: handyman_name
+
+  handyman_id:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: custom
+
+  chosen_slot:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: chosen_slot
+
+  chosen_date:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: chosen_date
+
+  booking_confirmed:
+    type: bool
+    initial_value: false
+    mappings:
+      - type: from_intent
+        intent: confirm_booking
+        value: true
+      - type: from_intent
+        intent: deny_booking
+        value: false
+        
+  booking_id:  # Add this new slot for tracking specific bookings
+    type: text
+    influence_conversation: false  # Not used for dialogue decisions
+    mappings:
+      - type: custom
+      
+  selection_in_progress:
+    type: bool
+    initial_value: false
+    influence_conversation: true
+    mappings:
+      - type: custom
+
+  awaiting_slot_selection:
+    type: bool
+    initial_value: false
+    influence_conversation: true
+    mappings:
+      - type: custom
+      
+  handymen_from_other_locations:
+    type: list
+    influence_conversation: false
+    mappings:
+      - type: custom
+
+  expertise_type:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: custom

@@ -1,0 +1,211 @@
+version: "3.1"
+
+nlu:
+- intent: report_issue_cleaner
+  examples: |
+    - "i have my nikah next week at my house, i need my house to be deep cleaned."
+    - clean my house
+    - I need deep cleaning for my house after a party
+    - I need deep cleaning for my house after a party.
+    - I need deep cleaning for my house after a party
+    - how to clean carpet
+    - Bang tolong cuci rumah
+    - I need deep cleaning for my house after a party
+    - I need deep cleaning for my house after a party
+    - can you clean my upholstery
+    - The carpet is dirty
+    - I won't be home for months. So I need deep cleaning house.
+    - I hust renovate my house and i need thorough cleaning.
+    - My house has just been renovated and needs to be cleaned
+    - in need of deep cleaning 
+    - My home smells like someone poo and pee help clean, carpet so smelly my cat piss, my windows can see moon very clearly
+    - "I need deep cleaning for my kitchen. There are grease stains on the walls, and the floor needs a good 
+    - House deep cleaning
+    - can you clean my storage room?
+    - My carpets are really stained and need a deep cleaning. There are a few areas with stubborn spots, and overall, they’re looking a bit worn out. Can you come clean them and make them look fresh again?
+    - My house just got renovation, need to be cleaned 
+    - I would like to schedule a cleaning for my entire house
+    - I need deep cleaning for my carpet
+    - Need help organizing my messy storage room
+    - Can you clean my upholstered furniture?
+    - How much for weekly cleaning service?
+    - Need deep cleaning before moving in
+    - Can you clean my curtains and blinds?
+    - How to remove carpet stains?
+    - Need post-construction cleaning
+    - Can you clean ceiling fans and light fixtures?
+    - How much for move-out cleaning?
+    - Need to clean kitchen exhaust fan
+    - Can you pressure wash my patio?
+    - How to remove mold from bathroom?
+    - Need weekly maid service
+    - Can you clean inside appliances?
+    - My windows need cleaning inside and out
+    - Need help with spring cleaning
+    - Can you clean my outdoor furniture?
+    - How much for office cleaning?
+    - Need air duct cleaning service
+    - Can you clean after a party?
+    - My blinds are dusty and need cleaning
+    - Need to clean my garage
+    - Can you clean my refrigerator?
+    - How to remove pet hair from furniture?
+    - My mattress smells, can you deep clean it?
+    - I need someone to clean my house every week
+    - Can you clean my house before Hari Raya?
+    - I just moved in and the house is dusty, need cleaning
+    - My pet sheds a lot, can you help clean the fur?
+    - I need post-party cleanup urgently
+    - Please clean all the windows in my house
+    - Can you disinfect my house?
+    - My ceiling fan is full of dust
+    - The kitchen is greasy and needs deep cleaning
+    - Can you help clean and disinfect my bathroom?
+    - I want a maid to clean my apartment weekly
+    - My kitchen tiles are sticky, please clean them
+    - There is mold on my bathroom ceiling
+    - Need cleaning after pest control treatment
+    - Please vacuum and mop the whole house
+    - Can you clean my floor tiles and grout?
+    - I need my balcony cleaned
+    - Can you remove spider webs from corners?
+    - My wardrobe and closet need organizing
+    - Need help removing stains from my sofa
+    - I need my windows and curtains cleaned
+    - Need someone to scrub bathroom tiles
+    - Can you help me clean up my messy room?
+    - My walls are dirty and stained, can they be cleaned?
+    - Can you clean under my heavy furniture?
+    - Please clean all fans and light fixtures
+    - I want to schedule a monthly deep cleaning
+    - Can you sanitize my kitchen and bathroom?
+    - Need someone to clean my child’s play area
+    - My tenant just left, house needs thorough cleaning
+    - Can you help clean my dusty store room?
+    - I need laundry area and washing machine cleaned
+    - My house smells bad, can you deodorize it?
+    - I need help cleaning up after painting
+    - I want to clean my oven and microwave
+    - Can you do a detailed cleaning of my house?
+    - My house has cobwebs, please clean them
+    - Need cleaning service for house warming event
+    - Can you clean all my light switches and doorknobs?
+    - My garden furniture is very dirty, help clean
+    - I need to clean all fans and air vents
+    - My fridge smells and needs a deep clean
+    - Please clean all shelves and cabinets in my kitchen
+    - The storeroom is full of dust, need help
+    - I need help with cleaning before my relatives arrive
+    - Can you clean kitchen hood and exhaust system?
+    - Need someone to help sort and clean old stuff
+    - The house is full of renovation dust, need urgent cleaning
+    - Please clean and organize my pantry
+    - I want everything in the house to be wiped down
+    - My pets made a mess, please help clean the floor
+    - Need thorough bathroom sanitation
+    - I want to get my mattress and pillows cleaned
+    - I have allergies, need hypoallergenic cleaning
+    - Need end-of-tenancy house cleaning
+    - Can you clean my kitchen backsplash and counters?
+    - My floor is sticky and dirty, need mopping
+    - Please deep clean my rugs and carpet
+    - Can you clean my study room?
+    - My air conditioner vents are dusty, help clean
+    - My house needs cleaning before Chinese New Year
+    - Can you clean my house after open house event?
+    - I need cleaning after kenduri at my home
+    - Please clean my house before Deepavali
+    - My balcony is dirty after haze, need cleaning
+    - Can you help clean my house after Ramadan?
+    - My porch is full of leaves after heavy rain
+    - I want cleaning service before my relatives visit for Hari Raya
+    - My kitchen is oily after cooking rendang
+    - Can you clean my house after gotong-royong?
+    - My house is dusty after durian season
+    - Please clean my prayer room before guests arrive
+    - I need cleaning after wedding ceremony at home
+    - My house is messy after birthday party
+    - Can you clean my house before parents come from kampung?
+    - My windows are dirty after thunderstorm
+    - Please clean my house after renovation for Gawai
+    - My floor is sticky after open house
+    - Can you clean my house after balik kampung trip?
+    - My house is full of ants, need cleaning
+    - Please clean my house after BBQ party
+    - My kitchen hood is greasy after frying ikan
+    - Can you clean my house before house blessing?
+    - My living room is messy after family gathering
+    - Please clean my house after Christmas party
+    - My house is dirty after pasar malam shopping
+    - Can you clean my house after moving balik kampung?
+    - My bathroom is dirty after water disruption
+    - Please clean my house after petaling street shopping
+    - My house is dusty after burning incense
+    - Can you clean my house after buka puasa event?
+    - My kitchen is dirty after making kuih raya
+    - Please clean my house after Deepavali open house
+    - My house is messy after kids’ tuition class
+    - Can you clean my house after majlis doa selamat?
+    - My house is dirty after durian feast
+    - Please clean my house after kenduri arwah
+    - My house is full of cat fur after pet adoption
+    - Can you clean my house after balik kampung for Aidilfitri?
+    - My porch is muddy after heavy rain
+    - Please clean my house after Hari Gawai celebration
+    - My house is dirty after making ketupat
+    - Can you clean my house after family reunion dinner?
+    - My kitchen is oily after cooking sambal
+    - Please clean my house after Thaipusam
+    - My house is messy after school holidays
+    - Can you clean my house after Hari Kaamatan?
+    - My house is dusty after lantern festival
+    - Please clean my house after buka puasa with friends
+    - My house is dirty after making lemang
+    - Can you clean my house after Deepavali prayers?
+    - My house is messy after kids’ birthday party
+    - Please clean my house after Hari Raya Haji
+    - My house is dirty after making murukku
+    - Can you clean my house after Christmas open house?
+    - My house is dusty after burning joss sticks
+    - Please clean my house after kenduri kahwin
+    - My house is messy after family potluck
+    - Can you clean my house after balik kampung for Chinese New Year?
+    - My house is dirty after making kuih lapis
+    - Please clean my house after Hari Raya open house
+    - My house is messy after friends’ gathering
+    - Can you clean my house after majlis cukur jambul?
+    - My house is dirty after making dodol
+    - Please clean my house after kenduri doa selamat
+    - My house is messy after school exam week
+    - Can you clean my house after Hari Raya Puasa?
+    - My house is dirty after making pineapple tarts
+    - Please clean my house after kenduri tahlil
+    - My house is messy after family movie night
+    - Can you clean my house after balik kampung for Deepavali?
+    - My house is dirty after making onde-onde
+    - Please clean my house after Hari Raya Aidiladha
+    - My house is messy after kids’ sleepover
+    - Can you clean my house after majlis akikah?
+    - My house is dirty after making nasi minyak
+    - Please clean my house after kenduri kesyukuran
+    - My house is messy after family karaoke night
+    - Can you clean my house after balik kampung for Gawai?
+    - My house is dirty after making curry puffs
+    - Please clean my house after Hari Raya Korban
+    - My house is messy after kids’ art class
+    - Can you clean my house after majlis pertunangan?
+    - My house is dirty after making satay
+    - Please clean my house after kenduri cukur rambut
+    - My house is messy after family game night
+    - Can you clean my house after balik kampung for Kaamatan?
+    - My house is dirty after making kuih bahulu
+    - Please clean my house after Hari Raya Aidilfitri
+    - My house is messy after kids’ science project
+    - Can you clean my house after majlis khatam Quran?
+    - My house is dirty after making kuih bangkit
+    - Please clean my house after kenduri doa selamat
+    - My house is messy after family potluck dinner
+    - Can you clean my house after balik kampung for Christmas?
+    - My house is dirty after making kuih kapit
+    - Please clean my house after Hari Raya Haji open house
+

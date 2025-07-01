@@ -1,0 +1,210 @@
+version: "3.1"
+
+nlu:
+- intent: report_issue_locksmith
+  examples: |
+    - "i keep on losing my keys, i want to duplicate it"
+    - install a digital lock on my door
+    - Can you install a digital lock on my door?
+    - Can you duplicate my house key?
+    - My door lock is jammed
+    - i have locked myself in my neighbor house
+    - Bang nak duplicate kunci ni bang
+    - My door lock is jammed
+    - Can you install a digital lock on my door
+    - my lock door was missing can you fix it
+    - The key is broken
+    - My door lock can't be used properly.
+    - I want to install smart lock on my front door.0
+    - My lock is broken and needs to be replaced
+    - need a duplication of my keys
+    - Im so dumb my door mad at me, my door playing with my emotion, need door no key please
+    - "My door lock is jammed and I can't get it to turn, so I need help fixing it so I can lock and unlock the door properly."
+    - Replacing or repairing locks 
+    - i break my key. can you help duplicat my old keys?
+    -  "I’d like to replace my current door lock with a digital one. Can you install it and ensure it’s set up correctly?"
+    - I need to duplicate my keys
+    - I think I broke my key in the lock. Can you help me get it out
+    - I want to add fingerprint scanner to my door
+    - I can’t open my door, the key won’t turn
+    - Locked myself out of the house
+    - Help! I lost my house keys
+    - My office lock is broken
+    - Need emergency locksmith service
+    - I want to replace my house locks
+    - Can you make a spare key for me?
+    - I dropped my key in the drain
+    - Can you rekey my front door?
+    - The lock on my back door is stuck
+    - I want to upgrade to a biometric lock
+    - I broke my key inside the lock
+    - I want to replace my old lock with a smart one
+    - Can you change the locks in my apartment?
+    - Need to remove a rusty lock
+    - I can’t lock my door properly
+    - My key is stuck in the keyhole
+    - I want to install a keypad lock
+    - I need to reset the code on my digital lock
+    - Help me unlock my door, I’m locked out
+    - Can you remove a broken lock from my drawer?
+    - My key broke while turning
+    - I think someone copied my key, need lock replacement
+    - Want to install a deadbolt on my main door
+    - Can you replace a door knob lock?
+    - I forgot the code to my digital lock
+    - My key doesn’t fit anymore
+    - I need a locksmith to open my gate
+    - I want to change my mailbox lock
+    - My door doesn’t close properly due to lock
+    - Want to add childproof lock to my cabinet
+    - My lock is loose and wiggles
+    - Need to install locks on all bedroom doors
+    - Locked my car key inside the house
+    - My lock keeps spinning and doesn’t open
+    - The keyhole is blocked
+    - My digital lock isn’t responding
+    - My smart lock battery is dead
+    - I need a new lock for my sliding door
+    - Help remove jammed lock from storage unit
+    - My lock clicks but won’t unlock
+    - Want to upgrade my old padlock
+    - I want to install a digital door lock with fingerprint
+    - My doorknob is loose and not locking
+    - I need a lock for my bathroom door
+    - Locked myself inside the room, need help
+    - I want to switch to a keyless entry
+    - I need to change the combination on my lock
+    - Can you help with my locker key duplication?
+    - My cabinet lock broke off
+    - I need locks for my drawers
+    - Want to install a digital lock on my gate
+    - The digital lock is beeping nonstop
+    - I lost my room key at a hotel
+    - Can you install multiple locks in my office?
+    - My sliding door lock is broken
+    - I need my safe unlocked
+    - My key bent while opening the door
+    - Need help picking a lock
+    - I want to make backup keys
+    - Can you install a new latch lock?
+    - My old lock rusted and won't turn
+    - My smart lock won’t connect to the app
+    - Need to unlock my wardrobe lock
+    - I lost the master key to my house
+    - Can you duplicate a digital key?
+    - My door needs a lock replacement
+    - Can you install locks with remote access?
+    - I can’t find my garage key
+    - My keychain broke and I lost my main key
+    - Need to fix a stuck deadbolt
+    - I want to secure all entrances with strong locks
+    - The fingerprint scanner won’t recognize me
+    - I want to install motion sensor lock
+    - Need to remove a lock without damaging the door
+    - I need to upgrade from mechanical to digital lock
+    - Help me set up password on my new digital lock
+    - My door lock isn't aligned with the strike plate
+    - Can you make a lock set for all my doors?
+    - My house key is stuck after balik kampung
+    - The digital lock is not working after thunderstorm
+    - My gate lock is jammed after heavy rain
+    - I lost my room key during Hari Raya
+    - The padlock on my gate is rusty after monsoon
+    - My car key is missing after pasar malam
+    - The lock on my sliding door is broken after open house
+    - My main door lock is loose after renovation
+    - The lock on my mailbox is jammed after festive season
+    - My digital lock battery died after blackout
+    - The lock on my storeroom is stuck after kenduri
+    - My key broke after balik kampung trip
+    - The lock on my grill door is rusty after rain
+    - My smart lock is not responding after lightning
+    - The lock on my kitchen door is jammed after BBQ party
+    - My key is missing after family gathering
+    - The lock on my bathroom door is stuck after school holidays
+    - My digital lock is beeping after power cut
+    - The lock on my office door is jammed after moving furniture
+    - My key is bent after balik kampung
+    - The lock on my gate is not working after thunderstorm
+    - My digital lock is not unlocking after festive season
+    - The lock on my bedroom door is jammed after kids’ party
+    - My key is stuck after Deepavali
+    - The lock on my main door is loose after family dinner
+    - My digital lock is not working after balik kampung
+    - The lock on my sliding door is broken after kenduri
+    - My key is missing after bazaar Ramadan
+    - The lock on my grill door is jammed after rain
+    - My smart lock is not connecting after blackout
+    - The lock on my kitchen door is stuck after open house
+    - My key is bent after Hari Raya
+    - The lock on my bathroom door is jammed after festive season
+    - My digital lock is beeping after thunderstorm
+    - The lock on my office door is stuck after balik kampung
+    - My key is missing after pasar tani
+    - The lock on my gate is rusty after monsoon
+    - My digital lock is not unlocking after blackout
+    - The lock on my bedroom door is jammed after family gathering
+    - My key is stuck after Gawai
+    - The lock on my main door is loose after kenduri
+    - My digital lock is not working after Deepavali
+    - The lock on my sliding door is broken after family event
+    - My key is missing after bazaar Aidilfitri
+    - The lock on my grill door is jammed after festive season
+    - My smart lock is not responding after rain
+    - The lock on my kitchen door is stuck after balik kampung
+    - My key is bent after Christmas
+    - The lock on my bathroom door is jammed after open house
+    - My digital lock is beeping after lightning
+    - The lock on my office door is stuck after kenduri
+    - My key is missing after bazaar Deepavali
+    - The lock on my gate is rusty after festive season
+    - My digital lock is not unlocking after rain
+    - The lock on my bedroom door is jammed after balik kampung
+    - My key is stuck after Kaamatan
+    - The lock on my main door is loose after family reunion
+    - My digital lock is not working after Christmas
+    - The lock on my sliding door is broken after festive holidays
+    - My key is missing after bazaar Christmas
+    - The lock on my grill door is jammed after thunderstorm
+    - My smart lock is not connecting after festive season
+    - The lock on my kitchen door is stuck after family gathering
+    - My key is bent after Hari Gawai
+    - The lock on my bathroom door is jammed after balik kampung
+    - My digital lock is beeping after blackout
+    - The lock on my office door is stuck after festive season
+    - My key is missing after bazaar Kaamatan
+    - The lock on my gate is rusty after rain
+    - My digital lock is not unlocking after thunderstorm
+    - The lock on my bedroom door is jammed after kenduri
+    - My key is stuck after Hari Raya Haji
+    - The lock on my main door is loose after open house
+    - My digital lock is not working after balik kampung trip
+    - The lock on my sliding door is broken after family potluck
+    - My key is missing after bazaar Gawai
+    - The lock on my grill door is jammed after festive holidays
+    - My smart lock is not responding after blackout
+    - The lock on my kitchen door is stuck after thunderstorm
+    - My key is bent after Deepavali
+    - The lock on my bathroom door is jammed after family dinner
+    - My digital lock is beeping after rain
+    - The lock on my office door is stuck after open house
+    - My key is missing after bazaar Hari Raya
+    - The lock on my gate is rusty after festive holidays
+    - My digital lock is not unlocking after blackout
+    - The lock on my bedroom door is jammed after family event
+    - My key is stuck after Christmas
+    - The lock on my main door is loose after festive season
+    - My digital lock is not working after thunderstorm
+    - The lock on my sliding door is broken after balik kampung
+    - My key is missing after bazaar Aidilfitri
+    - The lock on my grill door is jammed after rainstorm
+    - My smart lock is not connecting after festive holidays
+    - The lock on my kitchen door is stuck after family reunion
+    - My key is bent after Kaamatan
+    - The lock on my bathroom door is jammed after kenduri
+    - My digital lock is beeping after festive season
+    - The lock on my office door is stuck after balik kampung trip
+    - My key is missing after bazaar Christmas
+    - The lock on my gate is rusty after monsoon season
+    - My digital lock is not unlocking after rainstorm
+    - The lock on my bedroom door is jammed after festive holidays

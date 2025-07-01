@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: handygo-rasa-server
+    env: image
+    image: naimfitri130/handygo-rasa:latest
+    plan: free
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: ACTION_ENDPOINT
+        value: https://handygo-rasa-actions.onrender.com/webhook
+
+  - type: web
+    name: handygo-rasa-actions
+    env: image
+    image: naimfitri130/handygo-actions:latest
+    plan: free
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: FIREBASE_CONFIG
+        sync: false
+      - key: FIREBASE_DATABASE_URL
+        value: https://handygo-b6885-default-rtdb.asia-southeast1.firebasedatabase.app/

@@ -1,0 +1,220 @@
+version: "3.1"
+
+nlu:
+- intent: report_issue_painter
+  examples: |
+    - i want to repaint my living room
+    - help me repaint my walls 
+    - The paint on my kitchen wall is peeling
+    - I want to repaint the whole interior of my house.
+    - I want to repaint my wall
+    - how to apply coating
+    - Bang tolong tampal dinding saya bang
+    - I want to repaint my bedroom walls
+    - Can you paint my wooden dining table
+    - i want colour that can make myself calm
+    - The wall is faded
+    - I want to polish my wooden table so it would be suit well with my wall theme.
+    - I have a leak from my walls when it rains. I need you to apply waterproof coating.
+    - I need help repainting the inside and outside walls of my house
+    - The paint in my roomis peeling
+    - My bedroom ugly change it,  my wall in kitchen made in china help, my table so old need new color🤝
+    - I need to repaint my front door. The paint is chipping and it's starting to look worn out."
+    - Repairing paint damage or cracks
+    - my wall paint is mealting can you help?
+    - "The finish on my wooden dining table is worn out, and it looks scratched up in a few spots. I’d like to have it refinished so it looks smooth again and the wood is protected. Can you help with that?"
+    - I want to put waterproofing coating in my toilet
+    - I want to repaint my bedroom walls
+    - My house gate start rusting
+    - Need to remove wallpaper before painting
+    - Can you repair drywall holes?
+    - What type of paint for bathroom?
+    - Need exterior house painting
+    - Can you do decorative painting?
+    - My ceiling has water stains
+    - Need to paint kitchen cabinets
+    - Can you match existing paint color?
+    - What's the cost to paint one room?
+    - Need textured wall finishing
+    - Can you paint brick fireplace?
+    - My paint is bubbling on the walls
+    - Need to paint high ceilings
+    - Can you do faux finishing?
+    - My deck needs staining
+    - Need to paint concrete floor
+    - Can you paint furniture?
+    - My stucco exterior needs repainting
+    - Need help choosing paint colors
+    - Can you do mural painting?
+    - I want to repaint my porch walls
+    - The paint on my ceiling is peeling off
+    - Need help with exterior wall painting
+    - Can you paint the fence around my house?
+    - I want to repaint the bathroom walls
+    - My wall paint is fading in the sunlight
+    - Need to paint the doors and windows
+    - Can you do spray painting for my walls?
+    - The paint on my balcony is cracking
+    - I want to paint murals in my kid’s room
+    - Need help removing old paint from walls
+    - Can you paint my garage door?
+    - I want to paint my wooden floor
+    - The paint on my wall is blistering
+    - Need to repaint the ceiling in my living room
+    - Can you do decorative stripes on my walls?
+    - I want to paint my stair railing
+    - The paint on my exterior wall is chalking
+    - Need to fix paint cracks on my walls
+    - Can you repaint the kitchen cabinets?
+    - I want a matte finish on my walls
+    - Need to paint my hallway walls
+    - Can you paint the window trims?
+    - The paint on my fence is peeling
+    - Need to paint the wooden fence
+    - I want to paint the exterior of my house
+    - Can you do faux wood finish painting?
+    - Need to repaint the door frames
+    - My wall paint is bubbling and peeling
+    - I want to paint the baseboards
+    - Can you paint the ceiling molding?
+    - Need to paint the fireplace mantel
+    - I want to paint the bathroom cabinets
+    - The paint on my deck is fading
+    - Need to repaint the porch ceiling
+    - Can you paint the garage walls?
+    - I want to paint the kitchen backsplash
+    - The paint on my window frames is cracking
+    - Need to paint my basement walls
+    - Can you paint the wooden shutters?
+    - I want to paint the patio floor
+    - The paint on my door is peeling
+    - Need to paint the exterior trim
+    - Can you repaint my garden shed?
+    - I want to paint the ceiling beams
+    - The paint on my balcony railing is rusting
+    - Need to repaint my fence gate
+    - Can you paint the bathroom tiles?
+    - I want to paint a chalkboard wall
+    - The paint on my walls is uneven
+    - Need to paint over graffiti on my walls
+    - Can you paint the kitchen island?
+    - I want to paint the closet doors
+    - The paint on my stairs is chipping
+    - Need to repaint the exterior garage door
+    - Can you paint the wooden porch floor?
+    - I want to paint the molding around the ceiling
+    - The paint on my walls is cracking in patches
+    - Need help with paint color consultation
+    - Can you paint the interior trim?
+    - I want to paint the garden fence white
+    - The paint on my exterior walls is blistering
+    - Need to paint my outdoor furniture
+    - Can you paint decorative patterns on walls?
+    - I want to repaint my dining room walls
+    - The paint on my exterior door is peeling
+    - Need to paint the porch railing
+    - I want to repaint my house before Hari Raya
+    - The wall paint is peeling after monsoon rain
+    - My gate needs repainting after rust from rain
+    - Can you paint my house before Chinese New Year?
+    - The paint on my balcony faded after haze
+    - My kitchen wall is stained after cooking sambal
+    - Can you repaint my fence after rainy season?
+    - The paint on my porch is cracking after thunderstorm
+    - My house needs a fresh coat before Deepavali
+    - The paint on my window frames is peeling after rain
+    - Can you repaint my living room after open house?
+    - The paint on my ceiling is stained after leaking roof
+    - My wall paint is bubbling after heavy rain
+    - Can you paint my house before Gawai celebration?
+    - The paint on my door is chipping after balik kampung
+    - My fence needs repainting after Hari Raya
+    - The paint on my kitchen wall is faded after festive season
+    - Can you repaint my bedroom after kenduri?
+    - The paint on my bathroom wall is peeling after water leak
+    - My house needs painting before family gathering
+    - The paint on my exterior wall is cracking after storm
+    - Can you repaint my shop before festive sale?
+    - The paint on my gate is rusting after rain
+    - My living room wall is stained after BBQ party
+    - The paint on my balcony railing is peeling after thunderstorm
+    - Can you repaint my house before balik kampung?
+    - The paint on my porch ceiling is bubbling after rain
+    - My kitchen cabinet needs repainting after Hari Raya
+    - The paint on my garden wall is faded after hot weather
+    - Can you repaint my house before wedding event?
+    - The paint on my bathroom ceiling is peeling after leak
+    - My house needs painting before relatives visit
+    - The paint on my exterior door is cracking after rain
+    - Can you repaint my fence after Gawai?
+    - The paint on my window sills is peeling after thunderstorm
+    - My bedroom wall is stained after kids’ party
+    - The paint on my kitchen tiles is fading after cleaning
+    - Can you repaint my house before Deepavali open house?
+    - The paint on my porch railing is rusting after rain
+    - My living room wall is faded after festive season
+    - The paint on my balcony wall is peeling after storm
+    - Can you repaint my house before Christmas?
+    - The paint on my gate is chipping after monsoon
+    - My kitchen wall is stained after making rendang
+    - The paint on my bathroom tiles is fading after cleaning
+    - Can you repaint my house before Hari Kaamatan?
+    - The paint on my porch wall is bubbling after rain
+    - My bedroom wall is faded after balik kampung
+    - The paint on my exterior wall is peeling after thunderstorm
+    - Can you repaint my fence after Deepavali?
+    - The paint on my window frames is cracking after rain
+    - My living room wall is stained after family gathering
+    - The paint on my balcony railing is faded after hot weather
+    - Can you repaint my house before school holidays?
+    - The paint on my porch ceiling is peeling after leak
+    - My kitchen cabinet needs repainting after festive season
+    - The paint on my garden wall is peeling after rain
+    - Can you repaint my house before family reunion?
+    - The paint on my bathroom ceiling is stained after leak
+    - My house needs painting before open house
+    - The paint on my exterior door is peeling after thunderstorm
+    - Can you repaint my fence after Hari Raya Haji?
+    - The paint on my window sills is faded after rain
+    - My bedroom wall is stained after birthday party
+    - The paint on my kitchen tiles is peeling after cleaning
+    - Can you repaint my house before Gawai open house?
+    - The paint on my porch railing is peeling after festive season
+    - My living room wall is faded after balik kampung
+    - The paint on my balcony wall is cracking after storm
+    - Can you repaint my house before Aidilfitri?
+    - The paint on my gate is peeling after rain
+    - My kitchen wall is stained after making kuih raya
+    - The paint on my bathroom tiles is cracking after cleaning
+    - Can you repaint my house before Kaamatan?
+    - The paint on my porch wall is faded after hot weather
+    - My bedroom wall is peeling after thunderstorm
+    - The paint on my exterior wall is faded after rain
+    - Can you repaint my fence after Christmas?
+    - The paint on my window frames is peeling after festive season
+    - My living room wall is stained after kenduri
+    - The paint on my balcony railing is cracking after rain
+    - Can you repaint my house before balik kampung trip?
+    - The paint on my porch ceiling is faded after leak
+    - My kitchen cabinet needs repainting after open house
+    - The paint on my garden wall is cracking after storm
+    - Can you repaint my house before Hari Raya Aidilfitri?
+    - The paint on my bathroom ceiling is peeling after festive season
+    - My house needs painting before family dinner
+    - The paint on my exterior door is faded after rain
+    - Can you repaint my fence after Aidilfitri?
+    - The paint on my window sills is peeling after thunderstorm
+    - My bedroom wall is faded after festive season
+    - The paint on my kitchen tiles is stained after cleaning
+    - Can you repaint my house before Deepavali prayers?
+    - The paint on my porch railing is cracking after festive season
+    - My living room wall is peeling after balik kampung
+    - The paint on my balcony wall is faded after rain
+    - Can you repaint my house before Christmas open house?
+    - The paint on my gate is cracking after thunderstorm
+    - My kitchen wall is peeling after making curry
+    - The paint on my bathroom tiles is faded after cleaning
+    - Can you repaint my house before Hari Raya Korban?
+    - The paint on my porch wall is peeling after festive season
+    - My bedroom wall is cracking after rain
+    - The paint on my exterior wall is peeling after storm

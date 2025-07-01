@@ -1,0 +1,4 @@
+firebase-admin==6.2.0
+pytz==2023.3
+google-cloud-firestore==2.11.1
+google-cloud-storage==2.11.0

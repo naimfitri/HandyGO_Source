@@ -1,0 +1,217 @@
+version: "3.1"
+
+nlu:
+- intent: report_issue_IT
+  examples: |
+    - "my old pictures are gone! please help me recover it!"
+    - my wifi is slow . help me speed it up
+    - My computer won't turn on
+    - Can you help me set up a Wi-Fi connection?
+    - My computer wont turn on
+    - my laptop smoking
+    - Bang router wifi 7 berapa
+    - My laptop keeps crashing
+    - My laptop keeps crashing
+    - my computer always hang and heats up
+    - Help me set up my laptop connection 
+    - Can you help me install ArcGIS in my laptop?
+    - Can you help me setup my wifi. 
+    - My laptop data has been wiped
+    - Can you help me set up a Wi-Fi connection?
+    - My computer dead need cpr, i can't watch youtube help, my laptop crazy might need to send to mental hospital
+    - "My computer won't turn on, even though it's plugged in and the power button seems to be working."
+    - Setting up internet or Wifi
+    - the wifi is not reaching my second floor. can you setup a mesh?
+    -  "My computer won’t turn on—it’s plugged in, but nothing happens when I press the power button. Can you check it?"
+    - I cant connect to wifi
+    - I'm not sure what's wrong with my computer, but it's not working properly
+    - My internet has high pings
+    - My internet keeps disconnecting every few minutes
+    - I think my laptop has a virus
+    - Can you help recover deleted files?
+    - I want to install Microsoft Office
+    - My printer is not working
+    - My email isn’t syncing on my phone
+    - I can’t log into my account
+    - My laptop battery drains too fast
+    - How do I setup a secure Wi-Fi network?
+    - My monitor is not displaying anything
+    - I forgot my Windows password
+    - Can you setup a new router?
+    - My files disappeared after Windows update
+    - I think I lost my data after formatting the drive
+    - My laptop fan is very noisy
+    - My screen is flickering randomly
+    - Need help transferring files to a new laptop
+    - My system crashes when I open certain apps
+    - My desktop is running slow
+    - The keyboard on my laptop stopped working
+    - My laptop makes clicking noises
+    - My touchpad is not responding
+    - I need antivirus installed
+    - Can you format my PC and reinstall Windows?
+    - My USB ports are not working
+    - The Wi-Fi keeps dropping on my phone
+    - I want to connect my smart TV to Wi-Fi
+    - Can you help upgrade my RAM?
+    - My webcam is not detected
+    - I want to reset my router
+    - My computer suddenly shuts down
+    - I can’t install any new software
+    - How to make my internet faster?
+    - I want to set parental controls on Wi-Fi
+    - My computer makes beeping sounds
+    - I need help setting up a printer
+    - My PC restarts on its own
+    - My network cable is not detected
+    - Can you help me install Linux?
+    - My computer shows a blue screen
+    - I can't open my browser
+    - My screen freezes frequently
+    - Need help setting up Zoom on laptop
+    - My Wi-Fi icon disappeared
+    - How to connect my wireless printer?
+    - I get an error every time I try to update Windows
+    - My mouse is lagging
+    - Can you clean up viruses on my laptop?
+    - I need help creating a backup of my files
+    - My computer is making loud noises
+    - My laptop won’t charge
+    - I need help with Outlook setup
+    - Can you retrieve my lost emails?
+    - I want to connect my laptop to an external monitor
+    - Need help setting up dual monitors
+    - My LAN port is damaged
+    - I can’t find the Wi-Fi network on my phone
+    - I forgot my router password
+    - My SSD is not being recognized
+    - The internet is very slow during video calls
+    - My device is stuck on the boot screen
+    - My firewall is blocking applications
+    - Can you help configure a VPN?
+    - I want to setup remote desktop
+    - My phone is not connecting to laptop via USB
+    - My audio drivers are missing
+    - No sound is coming from my laptop
+    - My screen brightness doesn’t adjust
+    - I need help upgrading my OS
+    - Can you install Python and VS Code for me?
+    - My tablet is not updating
+    - I need help formatting my external drive
+    - My files are corrupted
+    - I can't open PDFs on my laptop
+    - I want to sync files with OneDrive
+    - My laptop camera quality is bad
+    - My system gets very hot
+    - I want to install a new hard drive
+    - Can you fix my broken charging port?
+    - My Bluetooth won’t connect to any device
+    - I need help with a Zoom background
+    - My Unifi router is not working after thunderstorm
+    - Can you help set up Astro on my smart TV?
+    - My Streamyx internet is very slow
+    - I need help connecting to TM WiFi
+    - My laptop can’t connect to campus WiFi
+    - The WiFi in my condo keeps dropping
+    - My Maxis router is not giving full speed
+    - I need help setting up Time Fibre at home
+    - My phone can’t connect to Digi hotspot
+    - The WiFi in my hostel is not working
+    - My laptop can’t detect Celcom broadband
+    - I need help configuring YES 4G router
+    - My internet is slow during rain
+    - My laptop can’t connect to eduroam at university
+    - I need help setting up Google Meet for online class
+    - My Zoom keeps disconnecting during meeting
+    - I need to print documents for JPJ appointment
+    - My laptop camera is blurry during Teams call
+    - I can’t access MySejahtera on my phone
+    - My phone can’t scan QR code at mall
+    - I need help installing e-wallet apps
+    - My Touch ‘n Go eWallet is not working
+    - I can’t top up my prepaid online
+    - My laptop can’t connect to hostel WiFi
+    - I need help setting up online banking
+    - My Maybank2u app is not loading
+    - I can’t pay bills through JomPAY
+    - My phone can’t receive TAC code
+    - I need help with Shopee app login
+    - My Grab app keeps crashing
+    - I can’t order food on Foodpanda
+    - My Lazada app is not updating
+    - I need help with MyKad reader installation
+    - My laptop can’t connect to projector in meeting room
+    - I need to set up a printer for hostel use
+    - My phone can’t connect to Bluetooth speaker at surau
+    - I need help setting up CCTV at home
+    - My laptop can’t connect to WiFi at mamak
+    - I need help with online class on Google Classroom
+    - My phone can’t connect to WiFi at shopping mall
+    - I need help setting up VPN for work from home
+    - My laptop can’t access UiTM student portal
+    - I need help with e-Filing for LHDN
+    - My phone can’t connect to WiFi at airport
+    - I need help with online registration for vaccination
+    - My laptop can’t connect to WiFi at library
+    - I need help setting up online meeting for surau committee
+    - My phone can’t connect to WiFi at hotel
+    - I need help with online payment for PTPTN
+    - My laptop can’t connect to WiFi at cafe
+    - I need help with online shopping on Zalora
+    - My phone can’t connect to WiFi at hospital
+    - I need help with online booking for Klinik Kesihatan
+    - My laptop can’t connect to WiFi at coworking space
+    - I need help with online application for passport
+    - My phone can’t connect to WiFi at LRT station
+    - I need help with online payment for TNB
+    - My laptop can’t connect to WiFi at bus station
+    - I need help with online application for driving license
+    - My phone can’t connect to WiFi at KTM station
+    - I need help with online payment for Indah Water
+    - My laptop can’t connect to WiFi at government office
+    - I need help with online application for BR1M
+    - My phone can’t connect to WiFi at university
+    - I need help with online payment for Astro bill
+    - My laptop can’t connect to WiFi at shopping mall
+    - I need help with online application for MARA loan
+    - My phone can’t connect to WiFi at school
+    - I need help with online payment for water bill
+    - My laptop can’t connect to WiFi at petrol station
+    - I need help with online application for EPF withdrawal
+    - My phone can’t connect to WiFi at restaurant
+    - I need help with online payment for assessment tax
+    - My laptop can’t connect to WiFi at clinic
+    - I need help with online application for SOCSO
+    - My phone can’t connect to WiFi at bank
+    - I need help with online payment for quit rent
+    - My laptop can’t connect to WiFi at hotel
+    - I need help with online application for PR1MA
+    - My phone can’t connect to WiFi at government office
+    - I need help with online payment for MBPJ
+    - My laptop can’t connect to WiFi at airport
+    - I need help with online application for MyKad replacement
+    - My phone can’t connect to WiFi at bus station
+    - I need help with online payment for MBSA
+    - My laptop can’t connect to WiFi at LRT station
+    - I need help with online application for MyKid
+    - My phone can’t connect to WiFi at KTM station
+    - I need help with online payment for MBPP
+    - My laptop can’t connect to WiFi at train station
+    - I need help with online application for MyPR
+    - My phone can’t connect to WiFi at surau
+    - I need help with online payment for MBJB
+    - My laptop can’t connect to WiFi at mosque
+    - I need help with online application for MyTentera
+    - My phone can’t connect to WiFi at pasar malam
+    - I need help with online payment for MBMB
+    - My laptop can’t connect to WiFi at pasar tani
+    - I need help with online application for MySalam
+    - My phone can’t connect to WiFi at bazaar Ramadan
+    - I need help with online payment for MBKT
+    - My laptop can’t connect to WiFi at bazaar Aidilfitri
+    - I need help with online application for MyKasih
+    - My phone can’t connect to WiFi at bazaar Deepavali
+    - I need help with online payment for MBSP
+    - My laptop can’t connect to WiFi at bazaar Christmas
+    - I need help with online application for MySiswa
+

@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-chosen_date",
+      "2": "I-chosen_date",
+      "3": "L-chosen_date",
+      "4": "U-chosen_date",
+      "5": "B-chosen_slot",
+      "6": "I-chosen_slot",
+      "7": "L-chosen_slot",
+      "8": "U-chosen_slot",
+      "9": "B-handyman_name",
+      "10": "I-handyman_name",
+      "11": "L-handyman_name",
+      "12": "U-handyman_name",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-chosen_date": 1,
+      "I-chosen_date": 2,
+      "L-chosen_date": 3,
+      "U-chosen_date": 4,
+      "B-chosen_slot": 5,
+      "I-chosen_slot": 6,
+      "L-chosen_slot": 7,
+      "U-chosen_slot": 8,
+      "B-handyman_name": 9,
+      "I-handyman_name": 10,
+      "L-handyman_name": 11,
+      "U-handyman_name": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]

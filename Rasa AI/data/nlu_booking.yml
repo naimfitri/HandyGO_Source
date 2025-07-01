@@ -1,0 +1,130 @@
+version: "3.1"
+
+nlu:
+- intent: confirm_booking
+  examples: |
+    - Yes
+    - Proceed with booking
+    - Sure, proceed
+    - Confirm
+    - Yes, book it
+    - That works for me
+    - Go ahead with the booking
+    - I accept
+    - Confirm my appointment
+    - Make the booking
+    - Book it please
+    - That schedule works
+    - Yes I'm happy with that time
+    - Sounds good, proceed
+    - Confirm my booking
+    - Yes let's proceed
+    - Ya, confirm booking
+    - Yes, let's do it
+    - That time is perfect
+
+- intent: choose_slot_and_date
+  examples: |
+    - I want to book slot [Slot 1](chosen_slot) on [2024-12-28](chosen_date)
+    - Book slot [Slot 2](chosen_slot) for [2024-12-30](chosen_date)
+    - I would like to book [Slot 3](chosen_slot) on [2024-12-25](chosen_date)
+    - I'll take [Slot 1](chosen_slot) on [2025-05-10](chosen_date)
+    - How about [Slot 2](chosen_slot) for [2025-05-15](chosen_date)?
+    - Let's schedule for [Slot 3](chosen_slot) on [2025-05-20](chosen_date)
+    - [Slot 2](chosen_slot) [2025-05-25](chosen_date) works for me
+    - Can I get [Slot 1](chosen_slot) [2025-06-01](chosen_date)?
+    - [Slot 3](chosen_slot) on [2025-06-05](chosen_date) please
+    - Book me [Slot 2](chosen_slot) for [2025-06-10](chosen_date)
+    - Is [Slot 1](chosen_slot) available on [2025-06-15](chosen_date)?
+    - I prefer [Slot 3](chosen_slot) [2025-06-20](chosen_date)
+    - [Slot 1](chosen_slot) [2025-05-08](chosen_date)
+
+- intent: cancel_booking
+  examples: |
+      - I want to cancel my booking
+      - Can you cancel my appointment?
+      - I need to cancel my booking
+      - Please cancel the booking
+      - Cancel my handyman appointment
+      - I would like to cancel the booking
+      - I don't need the handyman anymore
+      - Forget my booking
+      - I want to cancel it
+
+- intent: select_handyman
+  examples: |
+    - I want to proceed with [Ahmad](handyman_name)
+    - Can I book [Amin](handyman_name)?
+    - [Aman](handyman_name) looks good, I'll choose him
+    - Let's go with [Ahmad](handyman_name)
+    - I want [John](handyman_name) to handle this
+    - Can you book [Sarah](handyman_name)?
+    - Book [Afiq](handyman_name)
+    - I want to book [Afiq](handyman_name)
+    - [John Doe](handyman_name) looks good, I'll choose him
+    - Let's go with [Waie](handyman_name)
+    - I want [Afiq](handyman_name) to handle this
+    - Can you book [Afiq](handyman_name)?
+    - I want to book [Farid Akmal](handyman_name)
+    - Book [Farid](handyman_name) please
+    - [Farid](handyman_name) looks good
+    - I'll go with [Farid Akmal](handyman_name)
+    - [Farid](handyman_name)
+    - Let me choose [Farid](handyman_name)
+    - I'd like to hire [Farid Akmal](handyman_name)
+    - I'm interested in [Ahmad](handyman_name)'s services
+    - [Waie](handyman_name) seems like a good choice
+    - I think I'll go with [Amin](handyman_name)
+    - [Afiq](handyman_name) looks experienced
+    - I want to work with [John](handyman_name)
+    - [Sarah](handyman_name) has good reviews
+    - I pick [Ahmad](handyman_name)
+    - [Haikal](handyman_name) please
+    - [Naim](handyman_name) seems good
+    - Choose [Farid](handyman_name) for me
+    - Set me up with [Ahmad](handyman_name)
+    - Connect me with [Aman](handyman_name)
+    - Get me [Zul](handyman_name)
+    - Arrange [Razak](handyman_name) for the job
+    - I want [Mohd Ali](handyman_name)
+    - Is [Abu](handyman_name) available?
+
+- intent: show_other_locations
+  examples: |
+    - Yes, show me other locations
+    - Show me experts from other areas
+    - I want to see handymen from other cities
+    - Show handymen outside my location
+    - Yes, look outside my area
+    - Show me all available experts
+    - I'm willing to hire someone from another city
+    - Yes please show me alternatives
+    - I'm open to other areas
+    - Show me handymen from anywhere
+    - Distance isn't a problem
+    - I'd like to see experts from any location
+    - Let me see options from other cities
+    - Yes, I don't mind if they're from another location
+    - Show me the best experts regardless of location
+    - Can I see who's available in other areas?
+    - OK show me other locations
+
+- intent: cancel_request
+  examples: |
+    - No, cancel my request
+    - Cancel
+    - I don't want to proceed
+    - No thanks
+    - Nevermind
+    - Cancel this request
+    - I'd rather not
+    - Stop the process
+    - Let's not continue
+    - I changed my mind
+    - Not interested anymore
+    - Forget about it
+    - I don't need help anymore
+    - Let's try something else
+    - Stop searching
+    - Just cancel everything
+    - /cancel_request

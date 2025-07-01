@@ -1,0 +1,235 @@
+version: "3.1"
+
+nlu:
+- intent: easy_book
+  examples: |
+    - I want to book a handyman because my pipe is leaking
+    - Book a handyman for tomorrow at 2pm
+    - My AC is not working, need a handyman on 15/6 morning
+    - Need someone to fix my electricity on 20/5
+    - I need a plumber on 26/5 at 2pm
+    - My sink is clogged, book a plumber for tomorrow
+    - Book an electrician for 30/5 in the afternoon
+    - Need someone to fix my roof leak this Friday
+    - My washing machine is broken, need repair on 10/6
+    - Book a AC repair on Monday at 10am
+    - Find a carpenter for next Tuesday
+    - Need a painter on 25/5, available all day
+    - Book a handyman because my light is not working
+    - I need someone to fix my leaking pipe on 12/5
+    - Book a handyman for 6/6 at 7pm
+    - My door is stuck, need a carpenter this weekend
+    - Air conditioner not cooling, need repair tomorrow afternoon
+    - Book a plumber for my clogged drain on Friday
+    - Need an electrician this Thursday at 5pm
+    - My fridge isn't cooling, need repair on 22/5
+    - I want to book a handyman because my pipe is leaking. Book it on 26/5, available around 2pm
+    - Need a plumber today at 4pm
+    - Can you arrange for a pest control service on 5/6? I have cockroach problems
+    - I'd like to schedule a cleaning service next Monday morning
+    - My windows are shattered, need replacement on Tuesday at 3:00 PM
+    - Help me book a gardener for 7th June, I'm free after 2pm
+    - Schedule a locksmith tomorrow, lost my keys and need duplicates
+    - I need my roof fixed, leaking badly, anytime this weekend is fine
+    - Book a handyman to fix my ceiling fan, preferably on 13-05 evening
+    - Get me an IT guy to set up my wifi network this Saturday morning
+    - Need tiles installed in my bathroom on May 29th around noon
+    - Find me someone who can paint my living room walls on 3rd June
+    - I want to book a fence repair service for next Wednesday
+    - Get me an expert to fix my gate on 14/7 at 11am
+    - I need someone to install a new shower on Monday at 9AM
+    - Please book a handyman to mount my TV on the wall for tomorrow evening
+    - I need an appliance technician to check my refrigerator on Friday at 6pm
+    - Can you find someone to clean my carpet next Tuesday afternoon?
+    - Book a professional to check why my microwave isn't heating properly on 2/6
+    - Need a handyman for multiple jobs: fix leaking tap and repair door lock, anytime next week
+    - I've got a termite problem, need pest control on June 10th
+    - Book someone to install ceiling lights in my new house on 25/5 around 3pm
+    - I need lawn maintenance service this Saturday morning
+    - Schedule someone to clean my air conditioning unit on 7/7 at 10:00
+    - Get me a carpenter to build some shelves, any day after 9-June
+    - Can you book someone to replace my broken toilet seat tomorrow?
+    - Find an electrician to install new power points next Thursday 2pm
+    - I need to book a plumber ASAP, my bathroom is flooding
+    - Schedule deep cleaning for my kitchen on 12/8, morning preferred
+    - My outdoor gate is broken, need repair on 1/7 in the afternoon
+    - Book someone to check why my washing machine is making strange noises on Monday
+    - I need glass replacement for my broken window, available this Saturday
+    - Can you find someone to install smart home devices in my house on Friday afternoon?
+    - Book an expert to fix our office air conditioning system on 18th May around 10am
+    - Schedule a handyman to replace my door lock on Tuesday morning
+    - Need to book someone for furniture assembly on May 30th, afternoon
+    - I need a professional to check the electrical wiring in my new house, available on 8/6
+    - Find me a good handyman to fix multiple issues - leaking roof, broken cabinet door, and clogged sink - anytime next week
+    - Book a gardener to trim the trees in my compound on 5th June morning
+    - Need outdoor lighting installation service this Thursday evening
+    - Can you arrange for someone to check my water heater? Not working since yesterday, need urgent help
+    - Schedule a technician to install my new dishwasher on 11/7 around 4pm
+    - I need a handyman to help me move and install a heavy wardrobe, available this Sunday
+    - Book a specialist for bathroom renovation consultation on Monday afternoon
+    - Find someone to help with kitchen cabinet repairs on June 17th
+    - I need to book a handyman to fix my broken ceiling fan, tomorrow after lunch time
+    - Schedule drain cleaning service for next Wednesday morning
+    - Can you book someone to measure for and install blinds in my apartment? Available on 10/6
+    - Need urgent repair for my broken gate lock, preferably today or tomorrow
+    - Book a technician to service my water filter system next Tuesday at 1pm
+    - I need assistance setting up my new smart TV, available anytime tomorrow
+    - Get me a handyman who can fix small electrical issues on July 1st
+    - Book someone to clean my house gutters this weekend
+    - I need a professional to fix my squeaky wooden floor on 20/05 morning
+    - My toilet is clogged, book a plumber on 28/5 at 9am
+    - Book an electrician to fix my broken switch on 3/6 at 11:30am
+    - I need someone to repair my leaking kitchen pipe on 5/6 at 4pm
+    - Book a handyman to replace broken tiles on 6/6 at 10am
+    - My fan is making noise, book a technician on 1/6 at 2:30pm
+    - Schedule an expert to check my home wiring on 7/6 at 9:45am
+    - Book someone to fix my ceiling lights on 9/6 at 3pm
+    - I need an AC technician on 12/6 at 5:15pm, it's not cooling
+    - Please book a plumber to fix my bathroom tap leak on 13/6 at 8am
+    - I need a carpenter to fix my broken bed frame on 14/6 at 11am
+    - Schedule a gate repair service on 15/6 at 4pm
+    - Book someone to repaint my room walls on 16/6 at 10:30am
+    - My sink is leaking badly, book a plumber for 17/6 at 1pm
+    - Need help to fix my electric oven, schedule on 18/6 at 3:45pm
+    - Book a handyman to fix broken curtain rails on 19/6 at 5pm
+    - I need an electrician to check a short circuit on 20/6 at 9:30am
+    - My showerhead broke, book a plumber for 21/6 at 10am
+    - Book someone to fix my gate motor on 22/6 at 12pm
+    - Schedule someone to repair broken floor tiles on 23/6 at 3:30pm
+    - My kitchen faucet is leaking, need help on 24/6 at 11:15am
+    - Book someone to fix my outdoor lights on 25/6 at 6pm
+    - My air conditioner is noisy, schedule a technician on 26/6 at 9am
+    - I need my fan repaired on 27/6 at 2pm
+    - Book a professional to fix my broken window frame on 28/6 at 4:45pm
+    - I need someone to install a new light fixture on 29/6 at 10:30am
+    - Book a plumber to fix toilet flush on 30/6 at 8am
+    - My freezer is leaking water, schedule repair for 1/7 at 11am
+    - I need a new doorknob installed on 2/7 at 3pm
+    - Book someone to clean clogged drainage on 3/7 at 10am
+    - My living room fan stopped working, fix it on 4/7 at 4pm
+    - Book a handyman to fix loose wall sockets on 5/7 at 12:15pm
+    - My outdoor faucet is leaking, need repair on 6/7 at 9:30am
+    - I need someone to fix broken mirror frames on 7/7 at 2:45pm
+    - Book someone to clean and repair water tank on 8/7 at 11am
+    - Need a carpenter to repair wardrobe hinges on 9/7 at 3pm
+    - Book an electrician for ceiling fan installation on 10/7 at 6:30pm
+    - My sliding door won’t close properly, schedule fix on 11/7 at 10am
+    - Book a plumber for water heater installation on 12/7 at 1:45pm
+    - My balcony light is not working, repair it on 13/7 at 9am
+    - Schedule gutter cleaning on 14/7 at 4pm
+    - My kitchen cabinet door fell off, need fix on 15/7 at 8:30am
+    - Book someone to fix jammed main door lock on 16/7 at 12pm
+    - My garage light keeps flickering, need help on 17/7 at 5pm
+    - Schedule a handyman to fix loose bathroom tiles on 18/7 at 10am
+    - Book an electrician to inspect burnt power outlet on 19/7 at 3:15pm
+    - Need someone to fix balcony railing on 20/7 at 2pm
+    - My water pump isn’t working, book a technician for 21/7 at 11:30am
+    - Book someone to repair roof shingles on 22/7 at 4:30pm
+    - Schedule someone to service ceiling fan on 23/7 at 9:45am
+    - My bathroom ceiling is stained from water, need fix on 24/7 at 1pm
+    - My aircond is leaking, book a technician on 2/8 at 10am
+    - Book a plumber to fix my kitchen sink clog on 3/8 at 4pm
+    - My gate remote is not working, need repair on 4/8 at 11am
+    - Book someone to repaint my living room on 5/8 at 2pm
+    - My water heater is not heating, schedule a technician for 6/8 at 9am
+    - Book a locksmith to duplicate my keys on 7/8 at 3pm
+    - My fridge is not cold, need repair on 8/8 at 5pm
+    - Book a handyman to fix my broken window on 9/8 at 8am
+    - My bathroom tap is leaking, book a plumber for 10/8 at 1pm
+    - Book someone to clean my house after open house on 11/8 at 10am
+    - My roof is leaking, need repair on 12/8 at 4pm
+    - Book a pest control service for ants on 13/8 at 9am
+    - My washing machine is not spinning, schedule repair on 14/8 at 11am
+    - Book a gardener to trim my trees on 15/8 at 3pm
+    - My ceiling fan is noisy, book a technician for 16/8 at 2pm
+    - Book someone to fix my fence on 17/8 at 10am
+    - My sliding door is jammed, need repair on 18/8 at 5pm
+    - Book a painter to repaint my kitchen on 19/8 at 9am
+    - My toilet is clogged, book a plumber for 20/8 at 8am
+    - Book an electrician to fix my power trip on 21/8 at 4pm
+    - My aircond remote is not working, need help on 22/8 at 11am
+    - Book a handyman to fix my leaking roof on 23/8 at 3pm
+    - My kitchen cabinet door is loose, book repair on 24/8 at 2pm
+    - Book a plumber to fix my bathroom pipe on 25/8 at 10am
+    - My gate motor is faulty, schedule repair on 26/8 at 1pm
+    - Book someone to clean my garden on 27/8 at 9am
+    - My water filter is leaking, book a technician for 28/8 at 5pm
+    - Book a locksmith to fix my main door lock on 29/8 at 8am
+    - My oven is not heating, need repair on 30/8 at 4pm
+    - Book a handyman to fix my curtain rail on 31/8 at 11am
+    - My aircond is not cold, book a technician for 1/9 at 3pm
+    - Book a plumber to fix my leaking pipe on 2/9 at 10am
+    - My gate is stuck, need repair on 3/9 at 2pm
+    - Book someone to repaint my bedroom on 4/9 at 9am
+    - My washing machine is leaking, schedule repair on 5/9 at 1pm
+    - Book a gardener to cut my grass on 6/9 at 8am
+    - My ceiling light is flickering, book an electrician for 7/9 at 5pm
+    - Book a pest control service for cockroaches on 8/9 at 11am
+    - My kitchen tap is dripping, book a plumber for 9/9 at 4pm
+    - Book someone to clean my balcony on 10/9 at 3pm
+    - My fridge is making noise, need repair on 11/9 at 10am
+    - Book a handyman to fix my door hinge on 12/9 at 2pm
+    - My bathroom heater is not working, book a technician for 13/9 at 9am
+    - Book a locksmith to unlock my room door on 14/9 at 1pm
+    - My aircond is noisy, book a technician for 15/9 at 8am
+    - Book a plumber to fix my toilet flush on 16/9 at 5pm
+    - My gate is not closing, need repair on 17/9 at 11am
+    - Book someone to repaint my fence on 18/9 at 4pm
+    - My washing machine is not draining, schedule repair on 19/9 at 3pm
+    - Book a gardener to prune my plants on 20/9 at 10am
+    - My ceiling fan is not spinning, book a technician for 21/9 at 2pm
+    - Book a pest control service for termites on 22/9 at 9am
+    - My kitchen sink is leaking, book a plumber for 23/9 at 1pm
+    - Book someone to clean my garage on 24/9 at 8am
+    - My fridge is not freezing, need repair on 25/9 at 5pm
+    - Book a handyman to fix my window lock on 26/9 at 11am
+    - My bathroom tap is loose, book a plumber for 27/9 at 4pm
+    - Book a locksmith to duplicate my car key on 28/9 at 3pm
+    - My aircond is dripping water, book a technician for 29/9 at 10am
+    - Book a plumber to fix my shower leak on 30/9 at 2pm
+    - My gate remote is lost, need replacement on 1/10 at 9am
+    - Book someone to repaint my living room on 2/10 at 1pm
+    - My water heater is tripping, schedule a technician for 3/10 at 8am
+    - Book a locksmith to fix my gate lock on 4/10 at 5pm
+    - My fridge is leaking, need repair on 5/10 at 11am
+    - Book a handyman to fix my kitchen drawer on 6/10 at 4pm
+    - My bathroom pipe is clogged, book a plumber for 7/10 at 3pm
+    - Book someone to clean my windows on 8/10 at 10am
+    - My aircond is not turning on, book a technician for 9/10 at 2pm
+    - Book a plumber to fix my kitchen tap on 10/10 at 9am
+    - My gate is making noise, need repair on 11/10 at 1pm
+    - Book someone to repaint my bathroom on 12/10 at 8am
+    - My washing machine is not spinning, schedule repair on 13/10 at 5pm
+    - Book a gardener to trim my hedges on 14/10 at 11am
+    - My ceiling fan is shaking, book a technician for 15/10 at 4pm
+    - Book a pest control service for rats on 16/10 at 3pm
+    - My kitchen sink is blocked, book a plumber for 17/10 at 10am
+    - Book someone to clean my porch on 18/10 at 2pm
+    - My fridge is not cooling, need repair on 19/10 at 9am
+    - Book a handyman to fix my door knob on 20/10 at 1pm
+    - My bathroom heater is leaking, book a technician for 21/10 at 8am
+    - Book a locksmith to unlock my car door on 22/10 at 5pm
+    - My aircond is not blowing cold air, book a technician for 23/10 at 11am
+    - Book a plumber to fix my toilet leak on 24/10 at 4pm
+    - My gate is stuck, need repair on 25/10 at 3pm
+    - Book someone to repaint my kitchen on 26/10 at 10am
+    - My washing machine is noisy, schedule repair on 27/10 at 2pm
+    - Book a gardener to cut my grass on 28/10 at 9am
+    - My ceiling light is not working, book an electrician for 29/10 at 1pm
+    - Book a pest control service for ants on 30/10 at 8am
+    - My kitchen tap is leaking, book a plumber for 31/10 at 5pm
+    - Book someone to clean my house after Deepavali on 1/11 at 11am
+    - My fridge is not working, need repair on 2/11 at 4pm
+    - Book a handyman to fix my window frame on 3/11 at 3pm
+    - My bathroom tap is dripping, book a plumber for 4/11 at 10am
+    - Book a locksmith to duplicate my house key on 5/11 at 2pm
+    - My aircond is leaking water, book a technician for 6/11 at 9am
+    - Book a plumber to fix my kitchen pipe on 7/11 at 1pm
+    - My gate is not opening, need repair on 8/11 at 8am
+    - Book someone to repaint my living room on 9/11 at 5pm
+    - My water heater is not working, schedule a technician for 10/11 at 11am
+    - Book a locksmith to fix my main door on 11/11 at 4pm
+    - My fridge is making loud noise, need repair on 12/11 at 3pm
+    - Book a handyman to fix my curtain rod on 13/11 at 10am
+    - My bathroom pipe is leaking, book a plumber for 14/11 at 2pm
+    - Book someone to clean my balcony on 15/11 at 9am

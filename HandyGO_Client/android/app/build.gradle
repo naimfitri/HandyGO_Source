@@ -1,0 +1,66 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+// Add Google Services plugin after the other plugins
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    namespace = "com.example.test2"
+    compileSdkVersion 35   // Make sure this is at least 33
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    defaultConfig {
+        // Specify your unique Application ID
+        applicationId = "com.example.test2"
+        // Flutter-specific configurations
+        minSdk = flutter.minSdkVersion
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+        minSdkVersion 21   // Set to at least 21 for maps
+        targetSdkVersion 33
+    }
+
+    buildTypes {
+        release {
+            // Enable shrinking resources
+            shrinkResources true
+            // Enable minification for code
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+        debug {
+            // Disable shrinking for debug builds
+            shrinkResources false
+            minifyEnabled false
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
+
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:32.1.1') // Firebase BOM to manage dependencies
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.firebase:firebase-firestore-ktx'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'com.google.android.material:material:1.5.0'
+}

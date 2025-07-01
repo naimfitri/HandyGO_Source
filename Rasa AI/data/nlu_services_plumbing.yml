@@ -1,0 +1,222 @@
+version: "3.1"
+
+nlu:
+- intent: report_issue_plumber
+  examples: |
+    - my pipe is leaking
+    - there's a leak in my faucet
+    - water is leaking from the pipe
+    - I have a plumbing problem
+    - need a plumber
+    - faucet is dripping
+    - there's a problem with the switch to activate the water heater
+    - my sink is overflow. helep
+    - My sink is clogged 
+    - My kitchen sink is clogged.
+    - I just bought new water heater and need someone to help me to install it
+    - how to install this pipe
+    - Bang tolong pasang water heater bang
+    - my sink is clogged
+    - The water heater isn't working
+    - why is my sink not draining?
+    - My shower is leaking
+    - My ceiling fan is broken. Can you help to repair and install the new one for me?
+    - My shower drain is clogged.
+    - Hello, I need help regarding my clogged sink
+    - The water heater isn't working
+    - Plumber there. Fix🫰
+    - My dishwasher isn't draining properly. After the cycle finishes, there's still water left inside, and it doesn't seem to drain out."
+    - Fixing leaking or burst pipes
+    - I have a pipe leaking at my roof. the water is dripping from above.
+    - There's a leak in the pipe under my kitchen sink. Water is dripping down into the cabinet below. I think it might be coming from the joint where two pipes connect. It started as a small drip, but now it's getting worse. Can you take a look and fix it?
+    - How to install water heater
+    - My kitchen faucet is leaking from the base
+    - My faucet still leaking when the valve is closed
+    - Water leaking from under sink
+    - How do I fix a running toilet?
+    - My water pressure is too low
+    - Can you install a new shower head?
+    - Water heater making strange noises
+    - My toilet is backing up
+    - The bathroom sink is draining slowly
+    - Need a new water filter installed
+    - Can you replace my kitchen faucet?
+    - My toilet keeps running
+    - Water pressure drops when I use multiple taps
+    - I need all bathroom fixtures replaced
+    - How much for new plumbing installation?
+    - Pipes making banging noises
+    - Washing machine drain pipe is leaking
+    - Can you snake my drain?
+    - My water bill suddenly increased
+    - Hot water not working in shower
+    - Need to replace copper pipes
+    - Sump pump stopped working
+    - My bathroom sink is leaking
+    - Faucet handle is loose and leaking
+    - I need help unclogging my bathtub drain
+    - Water is leaking from my toilet base
+    - Need a plumber to fix leaking pipes in the basement
+    - How to fix a dripping faucet
+    - Water heater pilot light won't stay on
+    - My shower faucet handle is broken
+    - Toilet is constantly running water
+    - Pipes are freezing and bursting in winter
+    - Need help installing a new kitchen sink
+    - The water pressure in my shower is low
+    - I hear water dripping but can't find the leak
+    - How to replace a broken pipe
+    - My sink drain smells bad, need help
+    - Water heater leaking from the bottom
+    - Can you fix a leaking outdoor faucet?
+    - Need help installing a garbage disposal unit
+    - My toilet won't flush properly
+    - There is water pooling around my washing machine
+    - Leak detected near the water meter
+    - Water heater thermostat not working
+    - Need help fixing a dripping outdoor hose bib
+    - How to repair a clogged kitchen drain
+    - I think I have a leak inside the wall
+    - My bathtub drain stopper is broken
+    - Can you replace old rusty pipes?
+    - Toilet is clogged and overflowing
+    - Water is leaking from under the bathroom sink
+    - Need a plumber to fix noisy pipes
+    - My water heater needs maintenance
+    - The showerhead is leaking water
+    - Pipes making knocking sounds when water runs
+    - How to install a new toilet
+    - The faucet is leaking after installation
+    - Need help fixing a slow draining sink
+    - Water heater not producing hot water
+    - My pipe burst and flooded the bathroom
+    - Can you fix a leaking washing machine hose?
+    - Toilet flush handle is broken
+    - Faucet water pressure is low
+    - I have a drip coming from the ceiling under the bathroom
+    - How much to fix a leaking pipe under the sink?
+    - Need emergency plumber for burst pipe
+    - Water heater pilot light won't ignite
+    - Kitchen sink water is backing up
+    - Shower drain is clogged with hair
+    - Can you install a new water heater tank?
+    - My sink pipe is leaking at the joint
+    - The water heater pressure relief valve is leaking
+    - Toilet leaks water at the base
+    - How to fix water leaking from a shower valve
+    - Water heater not heating water properly
+    - My bathroom sink faucet leaks when off
+    - Need help replacing a broken faucet handle
+    - Pipes sweating and dripping water
+    - Water leaking around the bathroom floor drain
+    - Faucet is loose and water is leaking
+    - My kitchen faucet won't stop dripping
+    - Need help installing new plumbing for a laundry room
+    - Water heater making banging noises
+    - Toilet tank keeps refilling continuously
+    - Shower valve is stuck and leaking
+    - My bathroom pipe is leaking after heavy rain
+    - The kitchen sink is clogged after open house
+    - My water heater stopped working after thunderstorm
+    - The pipe in my garden burst after monsoon
+    - My toilet is leaking after balik kampung
+    - The bathroom tap is dripping after kenduri
+    - My kitchen pipe is leaking after festive season
+    - The water pressure is low after renovation
+    - My outdoor tap is broken after BBQ party
+    - The drain in my bathroom is clogged after school holidays
+    - My water heater is not working after blackout
+    - The pipe under my sink is leaking after bazaar Ramadan
+    - My toilet flush is not working after balik kampung trip
+    - The pipe in my backyard is leaking after rainy season
+    - My kitchen sink is blocked after making kuih raya
+    - The bathroom floor is flooded after thunderstorm
+    - My water heater is leaking after festive season
+    - The pipe in my ceiling is dripping after heavy rain
+    - My toilet is clogged after family gathering
+    - The kitchen tap is leaking after open house
+    - My bathroom pipe is rusty after monsoon
+    - The outdoor drain is blocked after storm
+    - My water heater is not heating after blackout
+    - The pipe in my garden is leaking after kenduri
+    - My kitchen sink is leaking after balik kampung
+    - The bathroom tap is loose after festive season
+    - My toilet is not flushing after school holidays
+    - The pipe under my sink burst after bazaar
+    - My water heater is making noise after thunderstorm
+    - The pipe in my backyard burst after rainy days
+    - My kitchen tap is dripping after making rendang
+    - The bathroom floor is wet after balik kampung
+    - My water heater is leaking after open house
+    - The pipe in my ceiling is leaking after festive season
+    - My toilet is blocked after family dinner
+    - The kitchen sink is leaking after kenduri
+    - My bathroom pipe is leaking after balik kampung
+    - The outdoor tap is broken after BBQ party
+    - My water heater is not working after school holidays
+    - The pipe under my sink is leaking after bazaar Deepavali
+    - My toilet flush is not working after balik kampung
+    - The pipe in my backyard is leaking after festive holidays
+    - My kitchen sink is blocked after making curry
+    - The bathroom floor is flooded after rain
+    - My water heater is leaking after balik kampung
+    - The pipe in my ceiling is dripping after thunderstorm
+    - My toilet is clogged after festive season
+    - The kitchen tap is leaking after family gathering
+    - My bathroom pipe is rusty after rainy days
+    - The outdoor drain is blocked after monsoon
+    - My water heater is not heating after festive season
+    - The pipe in my garden is leaking after open house
+    - My kitchen sink is leaking after balik kampung trip
+    - The bathroom tap is loose after kenduri
+    - My toilet is not flushing after festive holidays
+    - The pipe under my sink burst after bazaar Aidilfitri
+    - My water heater is making noise after rain
+    - The pipe in my backyard burst after storm
+    - My kitchen tap is dripping after making kuih lapis
+    - The bathroom floor is wet after family gathering
+    - My water heater is leaking after kenduri
+    - The pipe in my ceiling is leaking after balik kampung
+    - My toilet is blocked after open house
+    - The kitchen sink is leaking after festive season
+    - My bathroom pipe is leaking after family dinner
+    - The outdoor tap is broken after balik kampung
+    - My water heater is not working after bazaar Ramadan
+    - The pipe under my sink is leaking after school holidays
+    - My toilet flush is not working after festive season
+    - The pipe in my backyard is leaking after bazaar
+    - My kitchen sink is blocked after making satay
+    - The bathroom floor is flooded after balik kampung
+    - My water heater is leaking after family gathering
+    - The pipe in my ceiling is dripping after rain
+    - My toilet is clogged after kenduri
+    - The kitchen tap is leaking after festive holidays
+    - My bathroom pipe is rusty after storm
+    - The outdoor drain is blocked after rainy days
+    - My water heater is not heating after balik kampung
+    - The pipe in my garden is leaking after family dinner
+    - My kitchen sink is leaking after open house
+    - The bathroom tap is loose after festive holidays
+    - My toilet is not flushing after bazaar Deepavali
+    - The pipe under my sink burst after balik kampung
+    - My water heater is making noise after festive season
+    - The pipe in my backyard burst after rain
+    - My kitchen tap is dripping after making kuih raya
+    - The bathroom floor is wet after kenduri
+    - My water heater is leaking after festive holidays
+    - The pipe in my ceiling is leaking after storm
+    - My toilet is blocked after balik kampung
+    - The kitchen sink is leaking after family gathering
+    - My bathroom pipe is leaking after festive season
+    - The outdoor tap is broken after rain
+    - My water heater is not working after open house
+    - The pipe under my sink is leaking after bazaar Christmas
+    - My toilet flush is not working after balik kampung trip
+    - The pipe in my backyard is leaking after festive season
+    - My kitchen sink is blocked after making curry puffs
+    - The bathroom floor is flooded after festive holidays
+    - My water heater is leaking after family dinner
+    - The pipe in my ceiling is dripping after balik kampung
+    - My toilet is clogged after open house event
+    - The kitchen tap is leaking after kenduri
+

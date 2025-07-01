@@ -1,0 +1,213 @@
+version: "3.1"
+
+nlu:
+- intent: report_issue_pest
+  examples: |
+    - "the house that i rent is full of cockroaches!!"
+    - help me remove any rats in my house
+    - There are too many ants in my kitchen
+    - There are too many cockroaches in this house.
+    - There are too many ant in my kitchen
+    - how to get rid of mice and rats
+    - Bang berapa servis pest control
+    - I need a pest spray for mosquitoes
+    - I need a pest spray for mosquitoes
+    - there are too many mice on the ceiling of my house, can you help it? 
+    - There are many mosquitoes in my house
+    - I need pest spray for cockroach in my house.
+    - Can you help me get rid of cockroaches in my house?
+    - Cockroach are infesting my home
+    - There are too many ants in my kitchen
+    - Im currently in ww2 with ant in my kitchen, send tom to kill jerry in my house, send toxic gas on my house now
+    - I've noticed a lot of ants in my kitchen, especially around the sink and food areas. I need help getting rid of them."
+    - Preventing cockroaches,ants, or termites
+    - i got mice infestions in my house. can you get rid the mice?
+    - "I need a pest spray or solution for mosquitoes, especially around my yard and windows."
+    - My house got a rat problem 
+    - I have a wasp nest in my ceiling 
+    - I have rat problems in my house
+    - My kitchen is full of ants, please help
+    - There are rats running around my backyard
+    - Need help with termite infestation in my house
+    - I want to get rid of bed bugs in my room
+    - My house has a lot of flies, can you help?
+    - There are mosquitoes breeding near my house
+    - I found spider webs everywhere in my house
+    - I have wasps nests near my window, need to remove
+    - Can you do pest control for cockroach infestation?
+    - My house has fleas from my pet, need pest control
+    - Help me get rid of silverfish in my kitchen
+    - There are lots of ants crawling on my pantry shelves
+    - I want to get rid of termites in my wooden furniture
+    - Can you spray pesticide for mosquito control?
+    - I have a rat infestation in my garage
+    - My house has bed bugs, I need extermination
+    - There are cockroaches in my bathroom and kitchen
+    - Need pest control for ants invading my garden
+    - My backyard has many spiders, can you help?
+    - There are fleas on my dog, can you help remove?
+    - I have wasps nest hanging from my porch roof
+    - Need urgent pest control for rat infestation
+    - My house has cockroaches and ants everywhere
+    - Can you help with removing termites from the walls?
+    - I want pest spray for flies in my kitchen
+    - There are many mosquitoes around my balcony
+    - I want to get rid of bed bugs in my mattress
+    - Need pest control service for rats in the attic
+    - My house is infested with silverfish
+    - Can you remove wasps nest from my backyard tree?
+    - I have ants crawling on my dining table
+    - Need pest control for mosquito breeding grounds
+    - There are rats chewing on wires in my basement
+    - I found cockroaches in my cupboards
+    - My garden is infested with aphids and ants
+    - Need pest spray for ticks on my pet
+    - Can you do pest control for spiders in my house?
+    - I want to remove termites from wooden doors
+    - There are lots of flies in my kitchen and living room
+    - I have a rat problem behind my fridge
+    - Need to spray pesticide for mosquitoes in the garden
+    - Can you get rid of ants in my lawn?
+    - I have bed bugs bites all over my body
+    - Need urgent removal of wasps nest from my porch
+    - My house has cockroach infestation in the kitchen
+    - Can you help with pest control for rats?
+    - I want to get rid of fleas in my carpet
+    - There are termites eating my wooden furniture
+    - Need to remove ants colony near my front door
+    - My house is full of mosquitoes at night
+    - Can you spray pesticides for pest control in my house?
+    - I have rat droppings in my garage
+    - Need help removing cockroach infestation from kitchen
+    - My pet has fleas, need pest control treatment
+    - I found spider nests on my ceiling corners
+    - Can you get rid of ants invading my food storage?
+    - Need pest control for rats and mice in the house
+    - There are wasps building a nest near my window
+    - I want to remove bed bugs from my sofa
+    - My house has cockroaches crawling out at night
+    - Need pest spray for flies and mosquitoes
+    - I found rat holes in my backyard
+    - Can you remove termites from the house walls?
+    - Need pest control for ant infestation in kitchen
+    - There are many mosquitoes near my bedroom window
+    - My house has spider infestation in corners
+    - I want to remove fleas from my bed
+    - Need urgent pest control for wasps nest in my garden
+    - My kitchen counters have ants crawling on them
+    - Can you help with mosquito pest control around the house?
+    - I found rats nesting in my attic
+    - Need pest control service for cockroaches
+    - There are ants invading my pantry shelves
+    - I have termites damaging wooden beams in my house
+    - Need pest spray for flies inside my home
+    - Can you remove wasps nest from my porch roof?
+    - I want to get rid of bed bugs in my bedroom
+    - My house is infested with cockroaches and ants
+    - Need pest control for rat infestation in the backyard
+    - I found fleas on my pets, need pest spray
+    - Can you do pest control for spider webs inside my house?
+    - There are ants crawling on my kitchen floor
+    - My house is full of mosquitoes after rain
+    - Can you help remove ants after Hari Raya open house?
+    - There are cockroaches in my kitchen after kenduri
+    - My backyard is full of rats after rainy season
+    - Can you spray for mosquitoes before Gawai celebration?
+    - There are termites in my wooden gate after monsoon
+    - My house is infested with ants after balik kampung
+    - Can you help with pest control before Chinese New Year?
+    - There are rats in my kitchen after bazaar Ramadan
+    - My garden is full of mosquitoes after thunderstorm
+    - Can you remove cockroaches before Deepavali?
+    - There are ants in my pantry after festive season
+    - My house is full of flies after BBQ party
+    - Can you help with termite treatment before moving in?
+    - There are mosquitoes breeding in my bathroom after rain
+    - My storeroom is infested with rats after school holidays
+    - Can you spray for cockroaches before family gathering?
+    - There are ants in my kitchen after making kuih raya
+    - My house is full of spiders after renovation
+    - Can you help remove wasps nest before wedding event?
+    - There are termites in my furniture after balik kampung
+    - My house is infested with fleas after pet adoption
+    - Can you help with pest control before Hari Raya?
+    - There are rats in my attic after thunderstorm
+    - My garden is full of ants after rainy days
+    - Can you remove cockroaches before Christmas party?
+    - There are mosquitoes in my bedroom after balik kampung
+    - My house is full of bed bugs after guests stayed over
+    - Can you help with pest control before Deepavali open house?
+    - There are ants in my living room after open house
+    - My kitchen is infested with cockroaches after festive season
+    - Can you spray for mosquitoes before balik kampung?
+    - There are termites in my wooden floor after rain
+    - My house is full of rats after bazaar Aidilfitri
+    - Can you help remove wasps nest before family dinner?
+    - There are ants in my bathroom after kenduri
+    - My house is infested with cockroaches after school holidays
+    - Can you help with pest control before Gawai?
+    - There are mosquitoes in my garden after thunderstorm
+    - My storeroom is full of rats after festive season
+    - Can you spray for cockroaches before balik kampung?
+    - There are ants in my kitchen after making rendang
+    - My house is full of spiders after balik kampung
+    - Can you help remove termites before Hari Raya Haji?
+    - There are rats in my backyard after rainy season
+    - My garden is full of mosquitoes after open house
+    - Can you remove cockroaches before Kaamatan?
+    - There are ants in my pantry after Christmas
+    - My house is full of flies after kenduri arwah
+    - Can you help with termite treatment before Deepavali?
+    - There are mosquitoes breeding in my kitchen after rain
+    - My storeroom is infested with rats after balik kampung
+    - Can you spray for cockroaches before family reunion?
+    - There are ants in my kitchen after making curry
+    - My house is full of spiders after festive holidays
+    - Can you help remove wasps nest before Hari Kaamatan?
+    - There are termites in my wooden door after rain
+    - My house is infested with fleas after balik kampung
+    - Can you help with pest control before Christmas?
+    - There are rats in my attic after festive season
+    - My garden is full of ants after thunderstorm
+    - Can you remove cockroaches before Aidilfitri?
+    - There are mosquitoes in my bedroom after balik kampung trip
+    - My house is full of bed bugs after balik kampung
+    - Can you help with pest control before Hari Raya Aidilfitri?
+    - There are ants in my living room after balik kampung
+    - My kitchen is infested with cockroaches after open house
+    - Can you spray for mosquitoes before kenduri?
+    - There are termites in my wooden furniture after rain
+    - My house is full of rats after bazaar Deepavali
+    - Can you help remove wasps nest before family potluck?
+    - There are ants in my bathroom after festive season
+    - My house is infested with cockroaches after balik kampung
+    - Can you help with pest control before Kaamatan?
+    - There are mosquitoes in my garden after rain
+    - My storeroom is full of rats after Christmas
+    - Can you spray for cockroaches before balik kampung trip?
+    - There are ants in my kitchen after making kuih lapis
+    - My house is full of spiders after family gathering
+    - Can you help remove termites before Gawai?
+    - There are rats in my backyard after festive holidays
+    - My garden is full of mosquitoes after balik kampung
+    - Can you remove cockroaches before Hari Raya Korban?
+    - There are ants in my pantry after Deepavali
+    - My house is full of flies after family dinner
+    - Can you help with termite treatment before balik kampung?
+    - There are mosquitoes breeding in my bathroom after balik kampung
+    - My storeroom is infested with rats after festive holidays
+    - Can you spray for cockroaches before Christmas?
+    - There are ants in my kitchen after making satay
+    - My house is full of spiders after kenduri
+    - Can you help remove wasps nest before balik kampung?
+    - There are termites in my wooden wall after rain
+    - My house is infested with fleas after festive season
+    - Can you help with pest control before Hari Raya Korban?
+    - There are rats in my attic after balik kampung
+    - My garden is full of ants after festive holidays
+    - Can you remove cockroaches before balik kampung for Raya?
+    - There are mosquitoes in my bedroom after festive season
+    - My house is full of bed bugs after balik kampung trip
+    - Can you help with pest control before Deepavali prayers?
+    - There are ants in my living room after festive holidays
+    - My kitchen is infested with cockroaches after balik kampung

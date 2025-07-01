@@ -1,0 +1,2 @@
+D:/fyp/handyman_app/android/app/.cxx/RelWithDebInfo/662e2h2o/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/fyp/handyman_app/android/app/.cxx/RelWithDebInfo/662e2h2o/arm64-v8a/CMakeFiles/rebuild_cache.dir

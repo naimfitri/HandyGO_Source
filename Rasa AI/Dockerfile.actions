@@ -1,0 +1,32 @@
+FROM rasa/rasa-sdk:latest
+
+# Switch to root to install dependencies
+USER root
+
+# Install dependencies
+RUN pip install firebase-admin pytz
+
+# Set up working directory
+WORKDIR /app
+
+# Copy actions code and configuration
+COPY actions/ /app/actions/
+COPY config/ /app/config/
+
+# Set default PORT but allow override by Render
+ENV PORT=10000
+
+# Create an entrypoint script for better environment variable handling
+RUN echo '#!/bin/sh' > /app/entrypoint.sh && \
+    echo 'echo "Starting Rasa Actions server on port $PORT..."' >> /app/entrypoint.sh && \
+    echo 'exec python -m rasa_sdk --actions actions --port $PORT --cors "*"' >> /app/entrypoint.sh && \
+    chmod +x /app/entrypoint.sh
+
+# Explicitly expose the port
+EXPOSE $PORT
+
+# Switch back to non-root user for security
+USER 1001
+
+# Use the entrypoint script
+ENTRYPOINT ["/app/entrypoint.sh"]

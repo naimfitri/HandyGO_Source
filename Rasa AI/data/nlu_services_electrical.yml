@@ -1,0 +1,222 @@
+version: "3.1"
+
+nlu:
+- intent: report_issue_electrician
+  examples: |
+    - my light isn't working
+    - I have an electrical problem
+    - need an electrician
+    - the power is out in my room
+    - fuse has blown
+    - electrical socket not working
+    - one of my power outlet keep making noises every time i plug in something
+    - one of my bulb is not working
+    - One of the power outlets in my house stopped working
+    - My house suddenly blackout.
+    - When i switch on my oven the whole house blackout
+    - why my lamp flickering
+    - Bang rumah saya trip bang
+    - My ceiling fan is not working
+    - My ceiling fan is not working
+    - my socket plug is not working
+    - My plug is broken
+    - The wind from my ceiling fan was becoming slower and it can't be use anymore.
+    - I cant seem to receive any power from one of my outlets.
+    - My light is not working and needs help repairing
+    - The switches broke
+    - So dark , so hot need fix 🤌🤌
+    - The lights in my kitchen keep flickering, and sometimes they go completely out, but turning them off and on a few times seems to make them work again.
+    - Installing or repairing ceiling fans and light fixtures 
+    - can you check my fuse box its keep short my entire house.
+    - One of the power outlets in my living room stopped working. I've tried plugging in a few different devices, but none of them are getting power. The circuit breaker seems fine, and the other outlets in the room are working fine. Could you take a look?
+    - My ceiling fan really slow
+    - My smoke detector keeps beeping even though there is no smoke
+    - My house power keeps tripping 
+    - Need to install new light fixtures
+    - Power keeps going out in one room
+    - Can you add more outlets in my kitchen?
+    - My circuit breaker trips frequently
+    - How much for rewiring the house?
+    - My doorbell stopped working
+    - Need to upgrade electrical panel
+    - Can you install ceiling fans?
+    - One switch controls multiple lights
+    - My outdoor lights don't work
+    - Need GFCI outlets in bathroom
+    - Can you install a chandelier?
+    - My dimmer switch is buzzing
+    - Need someone to mount TV and hide wires
+    - I want to add smart switches
+    - Power surges damaging my electronics
+    - Need to replace old aluminum wiring
+    - Can you install security lights?
+    - My outlet sparks when I plug something in
+    - Need to add a dedicated circuit for appliance
+    - My fan is making strange noises when it spins
+    - I want to install a new switchboard
+    - Can you help fix my broken light switch?
+    - My electric water heater not functioning
+    - Need electrician to install exhaust fan
+    - My light bulb keeps burning out
+    - One of the wires in my house is exposed
+    - There’s a burning smell from my switchboard
+    - My doorbell rings randomly
+    - The socket sparked and now doesn't work
+    - Need to check faulty wiring
+    - Please replace all my broken light bulbs
+    - I want to install smart lighting system
+    - Can you help with wiring for new aircond?
+    - The power goes out every time I use my microwave
+    - My living room switch stopped working
+    - Can you fix the broken ceiling fan wiring?
+    - The light flickers when I turn on the fan
+    - My electric bell keeps ringing non-stop
+    - Please help with installing surge protectors
+    - My switch makes a popping noise
+    - I want to add motion sensor lights
+    - Can you wire new plugs in my room?
+    - The breaker box is humming loudly
+    - The fan only works at the lowest speed
+    - My kitchen outlet shocked me
+    - Can you rewire my old extension cords?
+    - One of the breakers is loose
+    - I want USB charging ports in my sockets
+    - My old house needs full rewiring
+    - I lost power after using hair dryer
+    - My switch gets hot after a few minutes
+    - The outside plug keeps tripping
+    - I want to install dimmer lights in bedroom
+    - My plug melted and smells burnt
+    - Need help fixing electric gate wiring
+    - Install lightning arrestor for my home
+    - The plug makes a crackling sound
+    - My electric stove won’t turn on
+    - I need to check all my home wiring for safety
+    - There is voltage fluctuation in my house
+    - Need help installing CCTV wiring
+    - I want to replace the wall switch with a smart one
+    - I need to fix my attic lights
+    - My hallway lights stopped working
+    - Please replace my ceiling lamp
+    - Install power sockets in balcony
+    - Can you install solar-powered lights?
+    - The bathroom heater isn't working
+    - The light turns on but immediately shuts off
+    - I need a backup power system installed
+    - Can you check the main fuse?
+    - My switchboard is outdated
+    - The power outlet gives electric shock
+    - Can you fix the LED strip lighting?
+    - The light turns on by itself
+    - Need to fix short circuit in room
+    - Can you add a power outlet next to my bed?
+    - Want to upgrade to energy-efficient lighting
+    - My lights turn off when I turn on the fan
+    - Can you install timer switches?
+    - My house power trips every time it rains heavily
+    - The plug point in my wet kitchen is not working
+    - My water heater stopped working after blackout
+    - The fan in my surau is not spinning
+    - My house keeps tripping during thunderstorm
+    - The switch in my master bedroom is loose
+    - My aircond power socket is not working
+    - The plug in my balcony is not working after rain
+    - My kitchen light keeps flickering after renovation
+    - The power socket in my condo is sparking
+    - My house power trips when I use the rice cooker
+    - The plug in my living room is burnt
+    - My ceiling fan is noisy after Gawai celebration
+    - The switch in my prayer room is not working
+    - My house power trips after using the iron
+    - The plug in my storeroom is not working
+    - My house power trips during Hari Raya
+    - The light in my porch is not turning on
+    - My house power trips after lightning
+    - The plug in my kitchen is loose after moving fridge
+    - My house power trips when using water pump
+    - The switch in my dining area is broken
+    - My house power trips after using washing machine
+    - The plug in my study room is not working
+    - My house power trips after using air fryer
+    - The light in my car porch is not working
+    - My house power trips after using vacuum cleaner
+    - The plug in my guest room is not working
+    - My house power trips after using blender
+    - The light in my backyard is not working
+    - My house power trips after using electric kettle
+    - The plug in my maid’s room is not working
+    - My house power trips after using oven
+    - The light in my garden is not working
+    - My house power trips after using microwave
+    - The plug in my home office is not working
+    - My house power trips after using induction cooker
+    - The light in my garage is not working
+    - My house power trips after using air purifier
+    - The plug in my children’s room is not working
+    - My house power trips after using slow cooker
+    - The light in my storeroom is not working
+    - My house power trips after using rice cooker
+    - The plug in my laundry area is not working
+    - My house power trips after using toaster
+    - The light in my corridor is not working
+    - My house power trips after using hair dryer
+    - The plug in my pantry is not working
+    - My house power trips after using water dispenser
+    - The light in my staircase is not working
+    - My house power trips after using coffee maker
+    - The plug in my foyer is not working
+    - My house power trips after using bread maker
+    - The light in my bathroom is not working
+    - My house power trips after using steamboat pot
+    - The plug in my wet kitchen is not working
+    - My house power trips after using grill
+    - The light in my kitchen is not working after blackout
+    - My house power trips after using electric steamer
+    - The plug in my dry kitchen is not working
+    - My house power trips after using juicer
+    - The light in my dining area is not working
+    - My house power trips after using sandwich maker
+    - The plug in my master bedroom is not working
+    - My house power trips after using electric wok
+    - The light in my living room is not working after rain
+    - My house power trips after using air cooler
+    - The plug in my guest bathroom is not working
+    - My house power trips after using electric grill
+    - The light in my bedroom is not working after thunderstorm
+    - My house power trips after using electric blanket
+    - The plug in my utility room is not working
+    - My house power trips after using electric shaver
+    - The light in my study room is not working after blackout
+    - My house power trips after using electric toothbrush
+    - The plug in my car porch is not working
+    - My house power trips after using electric rice cooker
+    - The light in my foyer is not working after blackout
+    - My house power trips after using electric pressure cooker
+    - The plug in my balcony is not working after thunderstorm
+    - My house power trips after using electric fan
+    - The light in my pantry is not working after blackout
+    - My house power trips after using electric mosquito repellent
+    - The plug in my garden is not working after rain
+    - My house power trips after using electric water filter
+    - The light in my garage is not working after blackout
+    - My house power trips after using electric sewing machine
+    - The plug in my backyard is not working after rain
+    - My house power trips after using electric treadmill
+    - The light in my wet kitchen is not working after blackout
+    - My house power trips after using electric heater
+    - The plug in my dry kitchen is not working after thunderstorm
+    - My house power trips after using electric oven
+    - The light in my dry kitchen is not working after blackout
+    - My house power trips after using electric cooker hood
+    - The plug in my master bathroom is not working
+    - My house power trips after using electric rice dispenser
+    - The light in my master bedroom is not working after blackout
+    - My house power trips after using electric blender
+    - The plug in my living room is not working after thunderstorm
+    - My house power trips after using electric iron
+    - The light in my guest room is not working after blackout
+    - My house power trips after using electric kettle
+    - The plug in my kitchen is not working after thunderstorm
+    - My house power trips after using electric steamer
+    - The light in my home office is not working after blackout
+

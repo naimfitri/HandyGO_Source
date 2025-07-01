@@ -1,0 +1,209 @@
+version: "3.1"
+
+nlu:
+- intent: report_issue_carpenter
+  examples: |
+    - i want to tore down my build-in wardrobe
+    - my door is making a creaking sound. im sked
+    - My door is stuck and won't close properly
+    - My key broke in the door knob.
+    - I need someone to replace my old cabinets
+    - how to fix this door
+    - Bang tolong pasang rak saya bang
+    - My door is stuck and won't close properly
+    - My door is stuck and won't close properly
+    - my lock door isnt working
+    - The table has defects 
+    - One of my window won't close properly.
+    - I need you to build one closets to fit all of my clothes. I need 3 compartments. For my shirt, pants and underwear.
+    - I need help with my door that has a flowering wood
+    - I need a new wooden desk
+    - Door broken, chair oku, want box on wall please🗿🗿
+    - My front door is sticking and doesn't close smoothly. It feels like the frame is misaligned, and I have to push hard to get it to shut.
+    - Fixing or replacing wooden furniture 
+    - can you help me build this cabinet.
+    - My door is sticking and won’t close properly. It seems like it’s rubbing along the bottom, and I have to push really hard to get it to shut all the way. Can you take a look and see if it just needs to be adjusted or if there’s something else going on?
+    - I need a new cabinets for my kitchen
+    - I would like to repaint my kitchen cabinets
+    - There is broken piece in the corner of my wooden table
+    - Need custom bookshelf built
+    - Can you install crown molding?
+    - My drawer slides are broken
+    - Need built-in wardrobe designs
+    - Can you refinish my hardwood floors?
+    - My kitchen cabinets need updating
+    - Need to install interior doors
+    - Can you build a custom desk?
+    - My stairs are squeaky
+    - Need wooden deck repaired
+    - Can you install wainscoting?
+    - My closet needs better organization
+    - Need custom TV entertainment center
+    - Can you build a window seat?
+    - My hardwood floor has water damage
+    - Need help designing custom furniture
+    - Can you install baseboards?
+    - My wooden fence needs repair
+    - Need help with IKEA furniture assembly
+    - Can you make child safety modifications?
+    - My wooden door frame is cracked
+    - The wardrobe door keeps falling off
+    - I want to replace my wooden flooring
+    - My bed frame is broken and wobbly
+    - The cabinet door hinges are loose
+    - I need someone to repair my wooden shelf
+    - The wooden table is missing a leg
+    - My closet door is misaligned
+    - Can you help install wooden blinds?
+    - My wooden chair is unstable
+    - I need someone to build a shoe rack
+    - Can you make a wooden partition for my living room?
+    - My wooden stairs feel soft and unsafe
+    - I want a carpenter to design my study table
+    - The frame of my sofa is broken
+    - I want to replace my kitchen cabinet doors
+    - My window wooden frame is rotting
+    - Can you build a wooden gate for my garden?
+    - I need someone to repair broken skirting boards
+    - I want to replace my dining table
+    - I need a carpenter for door installation
+    - My kitchen drawer won't open properly
+    - Can you help me realign my wardrobe doors?
+    - My bookshelf collapsed, need repair
+    - Can you make a wooden wall panel?
+    - My dressing table mirror stand is broken
+    - Need custom wooden shoe cabinet
+    - I want to upgrade all wooden doors in my house
+    - Can you fix broken wooden handles on drawers?
+    - My wooden fence is leaning
+    - I need a new headboard for my bed
+    - I need to soundproof my room with wooden panels
+    - My door hinge is rusted and squeaks
+    - I need help assembling a flat-pack cabinet
+    - Can you build a wooden bench for my balcony?
+    - My cupboard shelves are sagging
+    - My attic door doesn’t shut flush with the ceiling
+    - I want a built-in workspace in my study room
+    - My kitchen cabinet shelves are coming loose
+    - The wooden frame around the window is chipped
+    - I need to install a wooden railing
+    - Can you fix a loose wooden stair tread?
+    - Can someone make a folding wooden table?
+    - I want to restore my old wooden wardrobe
+    - My wooden drawer sticks every time I open it
+    - I need a hidden storage box in my furniture
+    - The wardrobe interior needs more hanging space
+    - Can you create a built-in reading nook?
+    - My bedroom needs custom wooden wall shelves
+    - I want a carpenter to make a pet bed frame
+    - I need under-the-stair wooden storage drawers
+    - My porch swing’s wooden seat is cracked
+    - I need wooden trim around the ceiling
+    - My table legs are uneven
+    - Can you help build a Murphy bed?
+    - Need a carpenter to repair antique furniture
+    - I want to remove a wooden panel on my wall
+    - Can you customize wooden crates for storage?
+    - I need a secure wooden door for my storeroom
+    - The legs of my coffee table are broken
+    - I want my kitchen to have a wooden countertop
+    - My old wooden door is termite damaged
+    - My bedroom door is hard to close, can you fix it?
+    - My kitchen cabinet is rotten, need to replace it
+    - I want to install a wooden shoe rack at my entrance
+    - My dining table is wobbly, can you tighten the screws?
+    - My wardrobe drawer keeps getting stuck, can you repair it?
+    - I want to build a wooden partition for my living room
+    - The main wooden door is old, need a new one
+    - Can you make a custom kitchen cabinet to fit my space?
+    - My wooden bookshelf is broken, can you fix it?
+    - I want to add shelves under my staircase
+    - My wooden chair leg is broken, can you repair it?
+    - I want to install wooden ceiling panels in my house
+    - Need to add more hanging space in my built-in wardrobe
+    - My sliding wooden door is hard to move
+    - I want a study table for my child
+    - The kitchen cabinet door hinge came off
+    - I want a wooden bench for my balcony
+    - There’s a hole in my wooden wall, can you patch it?
+    - I want to build a wall shelf for kitchen items
+    - My coffee table is slanted, can you fix it?
+    - I want a custom queen size wooden bed
+    - The cabinet under my sink is damaged by water
+    - Want to change my bathroom wooden door to plastic
+    - My kitchen cabinet door doesn’t close properly
+    - I want a multi-level wooden shoe rack
+    - My kitchen cabinet has termites
+    - I want a built-in wooden TV rack
+    - My bathroom wooden door is swollen from water
+    - Need to add shelves in my wardrobe
+    - My dining table is badly scratched
+    - I want a spice rack on the wall
+    - The laminate on my kitchen cabinet is peeling
+    - I want a wooden partition for my rental room
+    - My wardrobe door is loose
+    - I want a shoe rack for outside the house
+    - My kitchen cabinet is moldy
+    - I want a bookshelf for my child’s room
+    - My study table leg is broken
+    - I want a wall shelf for helmets
+    - The kitchen cabinet handle came off
+    - I want a wooden shoe rack for the mosque
+    - My wardrobe is too small, need more space
+    - I want a wall shelf for plates and bowls
+    - The kitchen cabinet door fell off
+    - I want a wooden shoe rack for the office
+    - My wardrobe hanging rail is broken
+    - I want a wall shelf for decorations
+    - The kitchen cabinet screw came off
+    - I want a wooden shoe rack for school
+    - My wardrobe leg is broken
+    - I want a wall shelf for school books
+    - The kitchen cabinet hinge came off
+    - I want a wooden shoe rack for the surau
+    - My wardrobe handle is broken
+    - I want a wall shelf for kitchen items
+    - The kitchen cabinet handle came off
+    - I want a wooden shoe rack for my flat
+    - My wardrobe door is broken
+    - I want a wall shelf for office items
+    - The kitchen cabinet door fell off
+    - I want a wooden shoe rack for my kampung house
+    - My wardrobe rail is broken
+    - I want a wall shelf for toys
+    - The kitchen cabinet screw came off
+    - I want a wooden shoe rack for my terrace house
+    - My wardrobe leg is broken
+    - I want a wall shelf for kitchen items
+    - The kitchen cabinet hinge came off
+    - I want a wooden shoe rack for my apartment
+    - My wardrobe handle is broken
+    - I want a wall shelf for kitchen items
+    - The kitchen cabinet handle came off
+    - I want a wooden shoe rack for my semi-D
+    - My wardrobe door is broken
+    - I want a wall shelf for office items
+    - The kitchen cabinet door fell off
+    - I want a wooden shoe rack for my bungalow
+    - My wardrobe rail is broken
+    - I want a wall shelf for toys
+    - The kitchen cabinet screw came off
+    - I want a wooden shoe rack for my double-storey terrace
+    - My wardrobe leg is broken
+    - I want a wall shelf for kitchen items
+    - The kitchen cabinet hinge came off
+    - I want a wooden shoe rack for my apartment
+    - My wardrobe handle is broken
+    - I want a wall shelf for kitchen items
+    - The kitchen cabinet handle came off
+    - I want a wooden shoe rack for my semi-D
+    - My wardrobe door is broken
+    - I want a wall shelf for office items
+    - The kitchen cabinet door fell off
+    - I want a wooden shoe rack for my bungalow
+    - My wardrobe rail is broken
+    - I want a wall shelf for toys
+    - The kitchen cabinet screw came off
+    - I want a wooden shoe rack for my flat
+    - My wardrobe leg is broken
+    - I want a wall shelf for school books

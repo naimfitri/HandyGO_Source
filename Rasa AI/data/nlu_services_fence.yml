@@ -1,0 +1,218 @@
+version: "3.1"
+
+nlu:
+- intent: report_issue_fence
+  examples: |
+    - "my gate is not safe for me. i want to install a new one with smart features"
+    - my gate key is broken. help
+    - My fence has a broken panel
+    - My gate is broken.
+    - My fence has a broken panel
+    - help me fix broken or malfunctioning gate
+    - Bang autogate berapa
+    - My fence has a broken panel
+    - My fence has a broken panel
+    - my gate was stucked cant open
+    - My fence needs to repair because there's rust
+    - I wanna install a new fence.
+    - I want to install automatic gate for my house.
+    - My fence is damaged and cannot open properly
+    - my fence are broken
+    - My fence let robber come in, the gate lock me outside, my fence so sleepy need coffee
+    - "My fence has a broken panel, and it's hanging loose. It's letting the neighbor's dog slip through, so I need it fixed as soon as possible."
+    - Fixinga broken malfunctioning gate
+    - my auto gate wont shut propely. can you check the controller and fix it?
+    - "One of the panels on my fence is broken and needs to be replaced or repaired."
+    - I need to a new gate around my house
+    - My gate is making a squeaking noise when it opens and closes.
+    - My gate does not close or open the gate smoothly
+    - My auto gate is not responding to the remote
+    - The gate motor is not working
+    - My fence is leaning and about to fall
+    - My gate got hit by a car and now it won't close
+    - I want to replace my old iron fence with a new one
+    - The gate latch is broken and won’t lock
+    - Need help installing electric gate
+    - Can you help install smart lock on my gate?
+    - My wooden fence is rotting and needs to be replaced
+    - I need a technician to fix my gate sensor
+    - The hinges on my gate are rusted and loose
+    - My fence door doesn’t align properly anymore
+    - I want a taller fence for privacy
+    - Someone broke my fence last night
+    - I want to upgrade to a smart gate system
+    - The fence door is too tight and hard to open
+    - Can you paint and repair my fence?
+    - My sliding gate is stuck halfway
+    - The auto gate light indicator keeps blinking
+    - Need to install new fencing around my garden
+    - My fence was damaged in the storm
+    - My gate doesn’t close unless I push it manually
+    - Can you check my automatic gate wiring?
+    - My iron gate is bent
+    - The gate wheels are broken and need to be replaced
+    - I want to build a brick fence around my house
+    - My backyard fence needs repair
+    - The wooden panels of my fence are falling off
+    - I need a lock installed on my fence door
+    - Can you reinforce my weak fence?
+    - I need help dismantling my old fence
+    - I want to install a sliding gate
+    - The gate remote control is not working anymore
+    - Need someone to repair my auto gate motor
+    - My fence is shaking when touched
+    - My front gate doesn’t open fully
+    - Can you install a steel fence?
+    - My backyard gate doesn't have a proper lock
+    - My fence is full of termites
+    - I want a metal gate with fingerprint access
+    - Need to adjust the auto gate track
+    - My pet keeps escaping through the broken fence
+    - The gate alarm system is not working
+    - Need help to install anti-climb fence
+    - The sensor on my automatic gate is faulty
+    - Can you weld the broken part of my gate?
+    - I want to replace my current gate with one that slides automatically
+    - The fence door slams too hard
+    - My fence is too short; I want it higher
+    - Gate controller keeps losing power
+    - I need someone to oil and service my gate
+    - Can you install a CCTV camera on my gate?
+    - My neighbor's kids broke part of my fence
+    - I need a fence with better security
+    - The auto gate motor smells like it's burning
+    - The fence posts are loose
+    - Can you design a custom smart gate?
+    - My gate opens too slowly
+    - My fence needs repainting and fixing
+    - The wiring on my autogate looks damaged
+    - Can you fix the gate alignment?
+    - The remote only works when I’m standing next to the gate
+    - I need help fixing the electric lock on my fence
+    - Can you install solar-powered auto gate system?
+    - I want to install a steel mesh fence
+    - The auto gate won’t open unless I reboot it
+    - The fence is wobbly and falling over
+    - I want motion detection sensors added to my fence
+    - Can you install a wooden picket fence?
+    - My gate keypad isn’t responding
+    - My dog keeps breaking through the gate
+    - I need to upgrade my manual gate to automatic
+    - I want to install a barrier gate for my driveway
+    - My electric gate opens randomly
+    - Can you fix my gate so it doesn’t make loud noise?
+    - The bolt on my gate is loose and falling off
+    - My fence has large gaps and is unsafe for kids
+    - I want to install a child-safe lock on my gate
+    - The lock on my fence gate is jammed
+    - Can you replace my fence with a concrete wall?
+    - My old wooden gate has collapsed
+    - The gate track is rusty and needs to be replaced
+    - I want to customize the design of my front gate
+    - My gate stops halfway and makes a beeping sound
+    - My gate is rusty after heavy rain
+    - The auto gate is not working after thunderstorm
+    - My fence is damaged after Hari Raya open house
+    - The gate remote stopped working after blackout
+    - My fence is leaning after strong wind
+    - The auto gate is stuck after power cut
+    - My fence is broken after neighbor’s car hit it
+    - The gate is noisy after Gawai celebration
+    - My fence is full of ants after rainy season
+    - The auto gate is not closing after balik kampung
+    - My fence is damaged after durian season
+    - The gate is stuck after kids played with it
+    - My fence is loose after renovation
+    - The auto gate is not opening after lightning
+    - My fence is broken after family gathering
+    - The gate is not locking after BBQ party
+    - My fence is rusty after monsoon season
+    - The auto gate is not responding after Deepavali
+    - My fence is damaged after school holidays
+    - The gate is not closing after kenduri
+    - My fence is broken after pet ran into it
+    - The auto gate is not working after Chinese New Year
+    - My fence is leaning after heavy rain
+    - The gate is not opening after thunderstorm
+    - My fence is broken after open house
+    - The auto gate is stuck after blackout
+    - My fence is damaged after moving house
+    - The gate is noisy after wedding event
+    - My fence is full of termites after rainy season
+    - The auto gate is not closing after balik kampung trip
+    - My fence is broken after Hari Gawai
+    - The gate is not locking after family event
+    - My fence is rusty after festive season
+    - The auto gate is not responding after Hari Raya
+    - My fence is damaged after kids’ party
+    - The gate is not closing after majlis doa selamat
+    - My fence is broken after pet day
+    - The auto gate is not working after Christmas
+    - My fence is leaning after thunderstorm
+    - The gate is not opening after heavy rain
+    - My fence is broken after family reunion
+    - The auto gate is stuck after power outage
+    - My fence is damaged after Deepavali celebration
+    - The gate is noisy after kenduri kahwin
+    - My fence is full of ants after festive season
+    - The auto gate is not closing after balik kampung for Raya
+    - My fence is broken after Hari Kaamatan
+    - The gate is not locking after open house
+    - My fence is rusty after school holidays
+    - The auto gate is not responding after Gawai
+    - My fence is damaged after BBQ party
+    - The gate is not closing after family gathering
+    - My fence is broken after pet ran into it again
+    - The auto gate is not working after balik kampung for Chinese New Year
+    - My fence is leaning after monsoon rain
+    - The gate is not opening after lightning
+    - My fence is broken after Hari Raya Haji
+    - The auto gate is stuck after blackout during storm
+    - My fence is damaged after moving furniture
+    - The gate is noisy after birthday party
+    - My fence is full of termites after festive season
+    - The auto gate is not closing after balik kampung for Deepavali
+    - My fence is broken after Hari Gawai celebration
+    - The gate is not locking after family dinner
+    - My fence is rusty after rainy season
+    - The auto gate is not responding after Christmas
+    - My fence is damaged after kids’ sleepover
+    - The gate is not closing after majlis tahlil
+    - My fence is broken after pet day event
+    - The auto gate is not working after balik kampung for Gawai
+    - My fence is leaning after thunderstorm last night
+    - The gate is not opening after heavy rain yesterday
+    - My fence is broken after family potluck
+    - The auto gate is stuck after blackout last week
+    - My fence is damaged after Deepavali open house
+    - The gate is noisy after kenduri arwah
+    - My fence is full of ants after school holidays
+    - The auto gate is not closing after balik kampung for Kaamatan
+    - My fence is broken after Hari Raya Aidilfitri
+    - The gate is not locking after open house event
+    - My fence is rusty after festive holidays
+    - The auto gate is not responding after Hari Raya Haji
+    - My fence is damaged after kids’ art class
+    - The gate is not closing after family karaoke night
+    - My fence is broken after pet adoption
+    - The auto gate is not working after balik kampung for Christmas
+    - My fence is leaning after monsoon season
+    - The gate is not opening after thunderstorm this morning
+    - My fence is broken after Hari Raya Puasa
+    - The auto gate is stuck after blackout during rain
+    - My fence is damaged after moving house last week
+    - The gate is noisy after family movie night
+    - My fence is full of termites after rainy holidays
+    - The auto gate is not closing after balik kampung for Aidilfitri
+    - My fence is broken after Hari Raya Korban
+    - The gate is not locking after family potluck dinner
+    - My fence is rusty after rainy days
+    - The auto gate is not responding after Deepavali prayers
+    - My fence is damaged after kids’ science project
+    - The gate is not closing after majlis khatam Quran
+    - My fence is broken after pet day at school
+    - The auto gate is not working after balik kampung for Kaamatan
+    - My fence is leaning after thunderstorm last week
+    - The gate is not opening after heavy rain last night
+    - My fence is broken after family gathering last weekend
+    - The auto gate is stuck after blackout during festive season

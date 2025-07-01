@@ -1,0 +1,33 @@
+FROM rasa/rasa:latest
+
+WORKDIR /app
+
+COPY config.yml domain.yml ./
+COPY data/ ./data/
+COPY models/ ./models/
+
+# Set default PORT but allow override by Render
+ENV PORT=10000
+ENV ACTION_ENDPOINT=http://action-server:5055/webhook
+ENV SQLALCHEMY_SILENCE_UBER_WARNING=1
+
+# Create a shell script that will create the endpoints.yml file at runtime
+RUN echo '#!/bin/sh' > /app/entrypoint.sh && \
+    echo 'echo "action_endpoint:" > /app/endpoints.yml' >> /app/entrypoint.sh && \
+    echo 'echo "  url: $ACTION_ENDPOINT" >> /app/endpoints.yml' >> /app/entrypoint.sh && \
+    echo 'echo "" >> /app/endpoints.yml' >> /app/entrypoint.sh && \
+    echo 'echo "tracker_store:" >> /app/endpoints.yml' >> /app/entrypoint.sh && \
+    echo 'echo "  type: SQL" >> /app/endpoints.yml' >> /app/entrypoint.sh && \
+    echo 'echo "  dialect: \"sqlite\"" >> /app/endpoints.yml' >> /app/entrypoint.sh && \
+    echo 'echo "  db: \"rasa.db\"" >> /app/endpoints.yml' >> /app/entrypoint.sh && \
+    echo 'echo "Starting Rasa on port $PORT..."' >> /app/entrypoint.sh && \
+    echo 'echo "PORT=$PORT"' >> /app/entrypoint.sh && \
+    echo 'netstat -tulpn || echo "Netstat not available"' >> /app/entrypoint.sh && \
+    echo 'exec rasa run -i 0.0.0.0 -p ${PORT:-10000} --enable-api --cors "*" --endpoints endpoints.yml' >> /app/entrypoint.sh && \
+    chmod +x /app/entrypoint.sh
+
+# Make sure port 10000 is explicitly exposed
+EXPOSE 10000
+
+# Use the entrypoint script
+ENTRYPOINT ["/app/entrypoint.sh"]

@@ -1,0 +1,799 @@
+version: "3.1"
+
+nlu:
+# Lookup tables for expertise mapping
+- lookup: plumber_keywords
+  examples: |
+    - pipe
+    - leak
+    - faucet
+    - sink
+    - water heater
+    - clog
+    - drain
+    - plumb
+    - toilet
+    - shower
+    - tap
+    - water
+    - dripping
+    - burst pipe
+    - pipe fitting
+    - low water pressure
+    - sewage
+    - sump pump
+    - plumbing installation
+    - plumbing repair
+    - backflow
+    - pipe burst
+    - water line
+    - blocked pipe
+    - hot water issue
+    - broken tap
+    - water pipe
+    - valve
+    - pipe joint
+    - flushing issue
+    - bathroom plumbing
+    - kitchen plumbing
+    - toilet tank
+    - water leak detector
+    - pipe noise
+    - gurgling drain
+    - standing water
+    - rusted pipe
+    - pipe corrosion
+    - emergency plumber
+
+- lookup: electrician_keywords
+  examples: |
+    - electricity
+    - power
+    - electric
+    - wiring
+    - light
+    - plug
+    - socket
+    - circuit
+    - breaker
+    - fan
+    - switch
+    - outlet
+    - lamp
+    - fuse
+    - voltage
+    - current
+    - electrician
+    - short circuit
+    - power outage
+    - surge
+    - dimmer
+    - electrical panel
+    - junction box
+    - wiring fault
+    - lighting fixture
+    - transformer
+    - power trip
+    - circuit board
+    - meter box
+    - energy saver
+    - LED light
+    - ceiling fan
+    - wall socket
+    - tripped breaker
+    - burnt wire
+    - electrical repair
+    - rewiring
+    - load shedding
+    - electrical installation
+    - smoke detector
+    - fire alarm
+    - electrical inspection
+    - grounding issue
+    - power fluctuation
+    - electric shock
+    - extension cord
+    - inverter
+    - power point
+    - AC installation
+    - electrical fault
+    - overload
+
+- lookup: ac_repair_keywords
+  examples: |
+    - aircond
+    - ac
+    - air con
+    - cold
+    - cooling
+    - air condition
+    - air conditioner
+    - air-con
+    - not cooling
+    - no cold air
+    - warm air
+    - compressor
+    - refrigerant
+    - gas refill
+    - gas leak
+    - thermostat
+    - fan not working
+    - condenser
+    - evaporator
+    - HVAC
+    - air filter
+    - AC service
+    - AC cleaning
+    - AC installation
+    - AC maintenance
+    - AC repair
+    - AC unit
+    - dripping water
+    - water leak
+    - noise from AC
+    - AC not turning on
+    - indoor unit
+    - outdoor unit
+    - remote not working
+    - bad smell
+    - airflow issue
+    - blocked vent
+    - duct cleaning
+    - power supply issue
+    - AC technician
+    - split unit
+    - inverter AC
+    - central air
+    - window AC
+    - portable AC
+    - clogged drain
+    - AC blowing hot air
+    - weak airflow
+    - short cycling
+    - freezing coil
+
+- lookup: appliance_repair_keywords
+  examples: |
+    - appliance
+    - fridge
+    - refrigerator
+    - washing
+    - dryer
+    - oven
+    - microwave
+    - dishwasher
+    - washer
+    - freezer
+    - stove
+    - cooktop
+    - range
+    - induction
+    - kitchen hood
+    - exhaust fan
+    - blender
+    - toaster
+    - kettle
+    - coffee maker
+    - broken fridge
+    - not cooling
+    - ice maker
+    - defrost issue
+    - heating issue
+    - not heating
+    - spin not working
+    - no power
+    - power issue
+    - won't turn on
+    - strange noise
+    - water leak
+    - overheat
+    - control panel
+    - timer problem
+    - burnt smell
+    - fuse blown
+    - electric oven
+    - door not closing
+    - drum issue
+    - vibration
+    - appliance repair
+    - technician
+    - appliance service
+    - appliance maintenance
+    - smart appliance
+    - household appliance
+    - front load
+    - top load
+    - home appliance
+    - cooling problem
+
+- lookup: carpenter_keywords
+  examples: |
+    - cabinet
+    - wood
+    - carpen
+    - door
+    - furniture
+    - table
+    - chair
+    - wardrobe
+    - shelf
+    - drawer
+    - carpentry
+    - wooden
+    - repair furniture
+    - build furniture
+    - woodwork
+    - carpenter
+    - bed frame
+    - cupboard
+    - wooden frame
+    - wood polish
+    - broken door
+    - fix table
+    - custom furniture
+    - wooden flooring
+    - laminate
+    - plywood
+    - veneer
+    - sanding
+    - wood cutting
+    - hinges
+    - cabinet door
+    - loose leg
+    - damaged wood
+    - nail pop
+    - wood joint
+    - door alignment
+    - door hinge
+    - door knob
+    - wood repair
+    - creaking wood
+    - fix shelf
+    - assemble furniture
+    - dismantle furniture
+    - sliding door
+    - wooden rack
+    - carpenter tools
+    - timber
+    - wall panel
+    - paneling
+    - frame making
+    - wood fitting
+
+- lookup: painter_keywords
+  examples: |
+    - paint
+    - wall
+    - repaint
+    - color
+    - coating
+    - paint job
+    - painting
+    - painter
+    - brush
+    - roller
+    - wall paint
+    - ceiling paint
+    - indoor paint
+    - outdoor paint
+    - house painting
+    - room painting
+    - wall crack
+    - paint peel
+    - peeling wall
+    - damp wall
+    - water stain
+    - patching wall
+    - plaster
+    - primer
+    - emulsion
+    - enamel
+    - matte finish
+    - glossy paint
+    - texture paint
+    - mural
+    - accent wall
+    - feature wall
+    - color matching
+    - spray paint
+    - stain blocking
+    - paint touch-up
+    - repaint room
+    - paint ceiling
+    - wall design
+    - decorative painting
+    - masking tape
+    - scaffolding
+    - old paint
+    - crack repair
+    - wall surface
+    - wallpaper removal
+    - damp proof
+    - fresh coat
+    - finish coat
+    - paint smell
+    - paint bucket
+
+- lookup: locksmith_keywords
+  examples: |
+    - lock
+    - key
+    - digital lock
+    - smart lock
+    - fingerprint
+    - locksmith
+    - unlock
+    - lost key
+    - door lock
+    - broken lock
+    - key stuck
+    - duplicate key
+    - key cutting
+    - lock repair
+    - lock change
+    - rekey
+    - deadbolt
+    - padlock
+    - lock installation
+    - master key
+    - safe lock
+    - security lock
+    - jammed lock
+    - lockout
+    - car key
+    - car lock
+    - transponder key
+    - remote key
+    - ignition key
+    - magnetic lock
+    - biometric lock
+    - access control
+    - RFID lock
+    - keyless entry
+    - door knob
+    - latch
+    - cylinder lock
+    - pin tumbler
+    - lock replacement
+    - house key
+    - security system
+    - lock service
+    - high-security lock
+    - emergency locksmith
+    - cabinet lock
+    - garage lock
+    - key duplication
+    - lost access
+    - vault lock
+    - restricted key
+    - safe unlocking
+
+- lookup: roofer_keywords
+  examples: |
+    - roof
+    - ceiling
+    - gutter
+    - leaking
+    - shingle
+    - roofer
+    - roof repair
+    - roof leak
+    - roof replacement
+    - roof installation
+    - water dripping
+    - roof tiles
+    - ceiling stain
+    - roof damage
+    - broken tile
+    - ceiling leak
+    - attic leak
+    - flashing
+    - roofing sheet
+    - roof waterproofing
+    - water seepage
+    - roof coating
+    - cracked ceiling
+    - downspout
+    - fascia
+    - soffit
+    - ridge cap
+    - roof inspection
+    - rainwater leak
+    - mold on ceiling
+    - sagging roof
+    - roof maintenance
+    - storm damage
+    - metal roof
+    - flat roof
+    - slate roof
+    - asphalt shingle
+    - roofing service
+    - roof restoration
+    - chimney leak
+    - ceiling patch
+    - waterproof sealant
+    - roof sealing
+    - rain leakage
+    - structural roof
+    - ceiling board
+    - tile roof
+    - ceiling crack
+    - roofing contractor
+    - roof cleaning
+    - water damage
+
+- lookup: pest_control_keywords
+  examples: |
+    - pest
+    - cockroach
+    - ant
+    - rat
+    - mice
+    - mosquito
+    - termite
+    - bug
+    - bedbug
+    - flea
+    - wasp
+    - hornet
+    - spider
+    - beetle
+    - fly
+    - gnat
+    - tick
+    - moth
+    - silverfish
+    - weevil
+    - earwig
+    - centipede
+    - millipede
+    - cricket
+    - locust
+    - aphid
+    - caterpillar
+    - maggot
+    - grub
+    - woodworm
+    - louse
+    - mite
+    - scorpion
+    - mole
+    - squirrel
+    - bat
+    - bird
+    - possum
+    - raccoon
+    - opossum
+    - snake
+    - gopher
+    - vole
+    - mole cricket
+    - carpenter ant
+    - carpenter bee
+    - powderpost beetle
+    - pantry pest
+    - fruit fly
+    - drain fly
+    - housefly
+
+- lookup: tiler_keywords
+  examples: |
+    - tile
+    - floor
+    - wall tile
+    - grout
+    - ceramic
+    - porcelain
+    - mosaic
+    - adhesive
+    - spacer
+    - cutter
+    - trowel
+    - leveling
+    - waterproofing
+    - sealant
+    - marble
+    - granite
+    - slate
+    - travertine
+    - quarry tile
+    - backsplash
+    - border tile
+    - subway tile
+    - encaustic
+    - terracotta
+    - glass tile
+    - trim
+    - bullnose
+    - underlayment
+    - screed
+    - leveling clip
+    - notched trowel
+    - tile saw
+    - wet saw
+    - spacers
+    - caulk
+    - latex additive
+    - thinset
+    - large format tile
+    - rectified tile
+    - patterned tile
+    - hexagon tile
+    - penny tile
+    - peel and stick tile
+    - tile nipper
+    - tile cutter
+    - tile adhesive
+    - tile leveling system
+    - tile trim
+    - tile edging
+    - tile cleaner
+
+- lookup: glass_keywords
+  examples: |
+    - glass
+    - window
+    - sliding door
+    - mirror
+    - pane
+    - glazing
+    - tempered glass
+    - laminated glass
+    - frosted glass
+    - stained glass
+    - double glazing
+    - triple glazing
+    - skylight
+    - shower screen
+    - glass door
+    - glass panel
+    - glass block
+    - safety glass
+    - insulated glass
+    - float glass
+    - toughened glass
+    - glass partition
+    - glass shelf
+    - glass table
+    - balustrade
+    - storefront
+    - curtain wall
+    - glass wall
+    - glass railing
+    - privacy glass
+    - bulletproof glass
+    - fire-rated glass
+    - glass repair
+    - glass replacement
+    - window repair
+    - window replacement
+    - glass installation
+    - glass cutting
+    - glass etching
+    - glass tinting
+    - glass film
+    - glass cleaner
+    - glass frame
+    - glass mosaic
+    - glass art
+    - glass facade
+    - glass canopy
+    - glass roof
+    - glass balustrade
+    - insulated unit
+    - glass hardware
+
+- lookup: gardener_keywords
+  examples: |
+    - garden
+    - plant
+    - lawn
+    - grass
+    - weed
+    - trim
+    - mow
+    - hedge
+    - pruning
+    - mulch
+    - soil
+    - compost
+    - fertilizer
+    - irrigation
+    - watering
+    - landscape
+    - edging
+    - flowerbed
+    - shrub
+    - tree
+    - seeding
+    - aeration
+    - turf
+    - sod
+    - rake
+    - hoe
+    - spade
+    - trowel
+    - planter
+    - potting
+    - greenhouse
+    - pest control
+    - leaf blower
+    - hedge trimmer
+    - shears
+    - topiary
+    - garden bed
+    - vegetable patch
+    - perennial
+    - annual
+    - bulb
+    - seedling
+    - transplant
+    - garden waste
+    - organic
+    - native plants
+    - garden design
+    - garden maintenance
+    - compost bin
+    - garden path
+    - garden fence
+
+- lookup: it_support_keywords
+  examples: |
+    - computer
+    - laptop
+    - wifi
+    - internet
+    - router
+    - network
+    - printer
+    - server
+    - firewall
+    - antivirus
+    - malware
+    - software
+    - hardware
+    - monitor
+    - keyboard
+    - mouse
+    - email
+    - password
+    - backup
+    - cloud
+    - VPN
+    - ethernet
+    - switch
+    - modem
+    - cable
+    - connectivity
+    - troubleshooting
+    - support
+    - helpdesk
+    - remote access
+    - update
+    - patch
+    - driver
+    - operating system
+    - Windows
+    - Mac
+    - Linux
+    - reboot
+    - login
+    - account
+    - security
+    - spyware
+    - spam
+    - phishing
+    - data recovery
+    - configuration
+    - setup
+    - installation
+    - upgrade
+    - diagnostics
+
+- lookup: fence_keywords
+  examples: |
+    - fence
+    - gate
+    - autogate
+    - gate controller
+    - boundary
+    - picket fence
+    - chain link
+    - wrought iron
+    - wooden fence
+    - vinyl fence
+    - privacy fence
+    - security fence
+    - electric fence
+    - sliding gate
+    - swing gate
+    - fence post
+    - fence panel
+    - mesh fence
+    - barbed wire
+    - palisade
+    - garden fence
+    - perimeter
+    - fencing contractor
+    - fence repair
+    - fence installation
+    - fence maintenance
+    - driveway gate
+    - automatic gate
+    - remote gate
+    - gate motor
+    - gate opener
+    - gate sensor
+    - access control
+    - intercom
+    - steel fence
+    - aluminium fence
+    - composite fence
+    - bamboo fence
+    - decorative fence
+    - pool fence
+    - boundary wall
+    - lattice fence
+    - farm fence
+    - ranch fence
+    - balustrade
+    - railing
+    - security gate
+    - pedestrian gate
+    - fence painting
+    - fence staining
+    - fence removal
+
+- lookup: cleaner_keywords
+  examples: |
+    - clean
+    - mess
+    - carpet
+    - deep clean
+    - sweep
+    - mop
+    - dust
+    - vacuum
+    - sanitize
+    - disinfect
+    - polish
+    - scrub
+    - stain removal
+    - window cleaning
+    - floor cleaning
+    - upholstery
+    - sofa cleaning
+    - mattress cleaning
+    - curtain cleaning
+    - tile cleaning
+    - grout cleaning
+    - pressure wash
+    - steam clean
+    - rubbish removal
+    - trash
+    - bin cleaning
+    - kitchen cleaning
+    - bathroom cleaning
+    - toilet cleaning
+    - sink cleaning
+    - oven cleaning
+    - fridge cleaning
+    - cobweb removal
+    - spot clean
+    - pet hair removal
+    - deodorize
+    - air freshener
+    - squeegee
+    - cleaning spray
+    - cleaning cloth
+    - microfiber
+    - broom
+    - bucket
+    - sponge
+    - duster
+    - cleaning service
+    - janitor
+    - maid
+    - housekeeper
+    - spring cleaning
+    - after party cleaning

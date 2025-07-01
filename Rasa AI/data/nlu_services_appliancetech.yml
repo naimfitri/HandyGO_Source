@@ -1,0 +1,216 @@
+version: "3.1"
+
+nlu:
+- intent: report_issue_appliancetech
+  examples: |
+    - "my dryer is not doing its job as a dryer"
+    - my washing machine is overflowing
+    - The fridge isn't cooling
+    - My refrigerators is broken.
+    - My washing machine wont spin
+    - my washing machines walk away
+    - Bang peti ais saya tak sejuk
+    - My washing machine won't spin
+    - The fridge isn't cooling
+    - Why is my refrigerator leaking water from the bottom?
+    - The microwave is broken
+    - My washing machine won't be used.
+    - My washing machine won't start. 
+    - Can you help install my induction cooker
+    - something wrong with my washer
+    - I have to spin my machine to wash my clothe, my fridge from hell everything melt even my eyes also melt, need to burn animal can install heat box?
+    - My washing machine isn’t draining properly; the water stays inside after the cycle is finished, and it doesn’t seem to spin at all."
+    - Installing kitchen appliances 
+    - my dryers wont dry my cloth propely. can you fix it?
+    - "I’ve bought a new oven, and I need help installing it and connecting it safely."
+    - My refrigerator make a loud sound
+    - My dryer isn't drying my clothes.
+    - My refrigerator not cooling properly
+    - My washing machine is stuck mid-cycle
+    - My fridge keeps freezing my vegetables
+    - The dryer is making a screeching sound
+    - My microwave won’t turn on
+    - The oven is not heating up properly
+    - My washer smells bad even after cleaning
+    - I think the motor of my washing machine is burnt
+    - The fridge light works, but it doesn’t cool
+    - My induction cooker is not working
+    - The washing machine makes a loud noise during spinning
+    - My oven’s door won’t close properly
+    - My microwave sparks when I use it
+    - The dryer takes too long to dry clothes
+    - My fridge compressor is too noisy
+    - The washing machine door is jammed shut
+    - Need help relocating my kitchen appliances
+    - The freezer is leaking water
+    - My washing machine leaves stains on clothes
+    - The microwave plate isn’t turning
+    - My electric stove doesn’t heat evenly
+    - The dryer keeps stopping mid-cycle
+    - The washing machine floods the laundry room
+    - The fridge keeps turning off randomly
+    - The dryer smells like burning
+    - My washing machine is unbalanced and shakes a lot
+    - Can you help set up my new dishwasher?
+    - My fridge is working but the freezer isn't
+    - The washing machine won’t fill with water
+    - Oven heats up too slowly
+    - My dryer doesn't tumble
+    - The washing machine panel is unresponsive
+    - Need technician for microwave repair
+    - The freezer is forming too much ice
+    - My oven is tripping the fuse
+    - My refrigerator is leaking gas
+    - The washing machine pipe is leaking
+    - My fridge interior light is broken
+    - Can you check why my dryer doesn’t heat?
+    - The washing machine doesn’t rinse properly
+    - Need help replacing refrigerator door gasket
+    - My dryer won’t turn on at all
+    - My oven's heating element is not glowing
+    - The dishwasher isn’t draining water
+    - My washing machine keeps beeping and won’t start
+    - My microwave buttons don’t work anymore
+    - My fridge vibrates and makes a humming noise
+    - The dryer runs but clothes are still wet
+    - I need someone to install my microwave oven
+    - My stove igniter won’t spark
+    - The washing machine keeps showing error code
+    - Can you fix a noisy refrigerator?
+    - The refrigerator door seal is damaged
+    - My fridge smells even after cleaning
+    - My microwave door is not closing properly
+    - The washer doesn’t spin dry
+    - The oven temperature is not accurate
+    - My fridge runs continuously without stopping
+    - I need help uninstalling my old stove
+    - My freezer is too cold and freezing everything
+    - The washing machine shakes violently during spin cycle
+    - The fridge cools unevenly
+    - My dishwasher won’t start
+    - I need to install a hood for my stove
+    - My oven shuts off during cooking
+    - The washing machine emits a burning smell
+    - Fridge door keeps popping open
+    - My dryer timer is not working
+    - I hear clicking noises from the refrigerator
+    - The freezer compartment is warm
+    - My oven light won’t turn off
+    - The washing machine won’t drain completely
+    - My stove burners won’t ignite
+    - My fridge has a bad chemical smell
+    - The dryer overheats clothes
+    - Washing machine detergent tray is clogged
+    - Microwave turns on but doesn’t heat food
+    - My oven makes a popping sound when heating
+    - The refrigerator cooling is delayed
+    - The washer's drum is not turning
+    - My microwave keeps turning off by itself
+    - My fridge is shaking and moving
+    - The washing machine door leaks water
+    - The oven fan is too loud
+    - Need help checking wiring of my electric cooker
+    - My fridge alarm keeps beeping non-stop
+    - The washing machine is stuck on one cycle
+    - My washing machine is not spinning clothes dry
+    - The fridge is leaking from the back
+    - My oven is not turning on
+    - The microwave display is not working
+    - My dryer is making a banging noise
+    - The washing machine is not taking in water
+    - My fridge is freezing everything inside
+    - The oven door is stuck shut
+    - My microwave is not heating food evenly
+    - The dryer is not starting at all
+    - My washing machine is making a grinding noise
+    - The fridge is not making ice
+    - My oven is not baking properly
+    - The microwave is not responding to buttons
+    - My dryer is not spinning
+    - The washing machine is not draining water
+    - My fridge is making a loud buzzing sound
+    - The oven is not getting hot enough
+    - My microwave is not turning on
+    - The dryer is not heating up
+    - My washing machine is not filling with water
+    - The fridge is not cooling at all
+    - My oven is not working after a power cut
+    - The microwave is not working after a power surge
+    - My dryer is not working after moving it
+    - The washing machine is not working after cleaning
+    - My fridge is not working after defrosting
+    - The oven is not working after cleaning
+    - My microwave is not working after moving it
+    - The dryer is not working after cleaning
+    - My washing machine is not working after moving it
+    - The fridge is not working after moving it
+    - My oven is not working after moving it
+    - The microwave is not working after cleaning
+    - My dryer is not working after a power cut
+    - The washing machine is not working after a power cut
+    - My fridge is not working after a power cut
+    - The oven is not working after a power surge
+    - The microwave is not working after a power cut
+    - My dryer is not working after a power surge
+    - The washing machine is not working after a power surge
+    - My fridge is not working after a power surge
+    - The oven is not working after defrosting
+    - The microwave is not working after defrosting
+    - My dryer is not working after defrosting
+    - The washing machine is not working after defrosting
+    - My fridge is not working after cleaning
+    - The oven is not working after maintenance
+    - The microwave is not working after maintenance
+    - My dryer is not working after maintenance
+    - The washing machine is not working after maintenance
+    - My fridge is not working after maintenance
+    - The oven is not working after repair
+    - The microwave is not working after repair
+    - My dryer is not working after repair
+    - The washing machine is not working after repair
+    - My fridge is not working after repair
+    - The oven is not working after installation
+    - The microwave is not working after installation
+    - My dryer is not working after installation
+    - The washing machine is not working after installation
+    - My fridge is not working after installation
+    - The oven is not working after relocation
+    - The microwave is not working after relocation
+    - My dryer is not working after relocation
+    - The washing machine is not working after relocation
+    - My fridge is not working after relocation
+    - The oven is not working after replacement
+    - The microwave is not working after replacement
+    - My dryer is not working after replacement
+    - The washing machine is not working after replacement
+    - My fridge is not working after replacement
+    - The oven is not working after fuse replacement
+    - The microwave is not working after fuse replacement
+    - My dryer is not working after fuse replacement
+    - The washing machine is not working after fuse replacement
+    - My fridge is not working after fuse replacement
+    - The oven is not working after circuit breaker trip
+    - The microwave is not working after circuit breaker trip
+    - My dryer is not working after circuit breaker trip
+    - The washing machine is not working after circuit breaker trip
+    - My fridge is not working after circuit breaker trip
+    - The oven is not working after lightning strike
+    - The microwave is not working after lightning strike
+    - My dryer is not working after lightning strike
+    - The washing machine is not working after lightning strike
+    - My fridge is not working after lightning strike
+    - The oven is not working after storm
+    - The microwave is not working after storm
+    - My dryer is not working after storm
+    - The washing machine is not working after storm
+    - My fridge is not working after storm
+    - The oven is not working after flood
+    - The microwave is not working after flood
+    - My dryer is not working after flood
+    - The washing machine is not working after flood
+    - My fridge is not working after flood
+    - The oven is not working after water damage
+    - The microwave is not working after water damage
+    - My dryer is not working after water damage
+    - The washing machine is not working after water damage
+    - My fridge is not working after water damage

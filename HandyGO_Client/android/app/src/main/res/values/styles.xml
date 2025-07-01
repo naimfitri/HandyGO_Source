@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Change from parent="@android:style/Theme.Light.NoTitleBar" to parent="Theme.MaterialComponents.Light.NoActionBar" -->
+    <style name="LaunchTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Show a splash screen on the activity. Automatically removed when
+             the Flutter engine draws its first frame -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    
+    <!-- Change from parent="@android:style/Theme.Light.NoTitleBar" to parent="Theme.MaterialComponents.Light.NoActionBar" -->
+    <style name="NormalTheme" parent="Theme.MaterialComponents">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+
+    <style name="UCropTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Optional: match your app’s colors if you want -->
+        <item name="colorPrimary">#FF6200EE</item>
+        <item name="colorPrimaryDark">#FF3700B3</item>
+        <item name="colorAccent">#FF03DAC5</item>
+    </style>
+</resources>

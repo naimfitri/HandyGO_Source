@@ -1,0 +1,215 @@
+version: "3.1"
+
+nlu:
+- intent: report_issue_gardener
+  examples: |    
+    - "i need my garden to be cleaned"
+    - trim my garden pwease
+    - I need someone to trim my overgrown garden,
+    - Can you teach me how to remove weeds in my backyard?
+    - I need someone to trim my overgrown garden
+    - how to plant durian tree
+    - Bang tolong potong rumput depan rumah
+    - There are too many weeds in my garden
+    - I need someone to trim my overgrown garden
+    - i want my tree to look shady
+    - The garden needs trimming
+    - I need to remove weeds from my garden.
+    - Help me clean my garden as the weeds have overgrown and it looks really messy.
+    - My lawn has overgrown grasses and is in need of mowing
+    - need to make my garden prettier 
+    - So messy my garden like growing beard, my garden look like graveyard need something, i can see snoop dog on my backyard 
+    - My backyard is overgrown with weeds, and I need help trimming the bushes and mowing the lawn."
+    - Planting or landscaping 
+    - can you help decoring my garden?
+    - My garden has a lot of overgrown bushes and plants that need trimming. Some of the branches are blocking the walkway, and it’s starting to look a bit untidy. Can you come trim everything back and tidy it up?
+    - My garden need to be trim
+    - have a lot of dead leaves in my yard that need to be raked up
+    - My garden infested by a few types of pest
+    - I want to hire someone to clean and trim my backyard
+    - My garden needs serious weeding
+    - The grass in my yard is too tall
+    - I need someone to cut the grass and trim the hedges
+    - My backyard looks like a jungle
+    - The plants in my garden are growing wild
+    - I need help maintaining my lawn
+    - Can someone mow the lawn and remove the weeds?
+    - I want to redesign my garden
+    - Need help landscaping my front yard
+    - Can you help me plant flowers and arrange them nicely?
+    - I want to grow vegetables in my backyard
+    - My grass is turning yellow, what should I do?
+    - There are insects damaging my plants
+    - My plants are dying, I need advice
+    - I need regular garden maintenance
+    - How to prune a hibiscus plant?
+    - I want a garden makeover
+    - My garden soil looks bad, how to fix?
+    - Can you help with garden pest control?
+    - My bushes are overgrown
+    - I need seasonal garden clean-up
+    - The vines are covering my windows
+    - I want to grow a herb garden
+    - I need someone to install a small garden fence
+    - Can you fertilize my lawn?
+    - My backyard needs tidying up
+    - I want to install garden lights
+    - My yard has dried leaves everywhere
+    - I need someone to trim my hedge
+    - There’s mold growing on the soil in my pots
+    - Can you help me install artificial grass?
+    - I want a rock garden
+    - The edges of my lawn are messy
+    - I need help planting a tree
+    - Can you help shape my topiary?
+    - I want a garden suitable for pets
+    - I want to add mulch to my flower beds
+    - My backyard is full of mud after rain
+    - My lawn has bald patches
+    - I need help installing a sprinkler system
+    - How to water my garden efficiently?
+    - Can you remove tree stumps from my garden?
+    - My garden needs pest treatment
+    - Can someone clean my rooftop garden?
+    - There are bugs all over my plants
+    - I want to grow grass on my lawn
+    - My front yard looks abandoned
+    - The plants are overgrowing the fence
+    - I want my garden to be Instagram-worthy
+    - Can you remove old plants and replace them?
+    - I need help installing a garden pathway
+    - Can you help me harvest my garden produce?
+    - There are snakes hiding in the bushes
+    - I want to plant fruit trees
+    - My garden smells like something rotting
+    - Can you clear the weeds from the flower beds?
+    - The flowers need replanting
+    - I want to grow cactus and succulents
+    - My balcony garden needs maintenance
+    - Can you clean the leaves from my gutter?
+    - The roots are lifting my pavement
+    - I want to plant bamboo for privacy
+    - I need help controlling the moss on my lawn
+    - How to grow a vertical garden?
+    - My trees are shedding too many leaves
+    - Can you make my garden child-friendly?
+    - I want to add stepping stones to my yard
+    - The garden is flooded after rain
+    - I want a zen garden with rocks and sand
+    - My garden needs regular watering service
+    - Can you clean my fish pond in the garden?
+    - I want to build raised garden beds
+    - My grass needs aerating
+    - How to remove mushroom growth from the lawn?
+    - I want to remove a tree that's too close to my house
+    - I need advice on composting
+    - Can you help build a greenhouse in my backyard?
+    - My garden is full of ants
+    - There’s a fallen branch that needs removal
+    - I need help building a small vegetable plot
+    - Can someone clean and organize my front yard?
+    - My garden is full of mosquitoes after rain
+    - Can you clear the drains in my garden? They are clogged after heavy rain
+    - My rambutan tree needs pruning
+    - The grass is growing too fast during monsoon season
+    - My garden is muddy after thunderstorm
+    - Can you help clean my garden before Hari Raya?
+    - My banana tree is leaning after strong wind
+    - The garden is flooded after heavy rain
+    - My mango tree has too many dead branches
+    - Can you help plant bunga raya in my yard?
+    - My garden is messy after open house
+    - The grass is patchy after Gawai celebration
+    - My garden needs cleaning after kenduri
+    - Can you help tidy up my garden before Chinese New Year?
+    - My papaya tree is attracting too many birds
+    - The garden is full of fallen leaves after storm
+    - My garden is overgrown after balik kampung
+    - Can you help remove lalang from my yard?
+    - My garden is full of snails after rain
+    - The grass is yellow after festive season
+    - My garden is messy after family gathering
+    - Can you help plant pandan leaves for cooking?
+    - My garden is full of rubbish after pasar malam
+    - The grass is too long after school holidays
+    - My garden is full of ants after rainy days
+    - Can you help clean my garden before Deepavali?
+    - My guava tree needs trimming
+    - The garden is full of weeds after monsoon
+    - My garden is messy after BBQ party
+    - Can you help plant lemongrass in my garden?
+    - My garden is full of cats after feeding strays
+    - The grass is muddy after kids played football
+    - My garden is full of fallen coconuts
+    - Can you help clean my garden before wedding event?
+    - My durian tree needs pest control
+    - The garden is full of plastic after open house
+    - My garden is messy after Hari Raya
+    - Can you help plant curry leaves in my yard?
+    - My garden is full of frogs after rain
+    - The grass is patchy after Deepavali
+    - My garden is messy after birthday party
+    - Can you help plant chili plants in my garden?
+    - My garden is full of leaves after thunderstorm
+    - The grass is too long after balik kampung
+    - My garden is full of rubbish after kenduri
+    - Can you help plant lime trees for cooking?
+    - My garden is full of insects after rainy season
+    - The grass is muddy after family picnic
+    - My garden is messy after Christmas party
+    - Can you help plant ginger in my garden?
+    - My garden is full of weeds after school holidays
+    - The grass is patchy after Kaamatan
+    - My garden is messy after Gawai celebration
+    - Can you help plant turmeric in my yard?
+    - My garden is full of birds after fruit season
+    - The grass is too long after Hari Raya
+    - My garden is full of rubbish after bazaar Ramadan
+    - Can you help plant bunga kantan in my garden?
+    - My garden is full of lizards after rain
+    - The grass is muddy after kids’ party
+    - My garden is messy after majlis doa selamat
+    - Can you help plant serai in my garden?
+    - My garden is full of bees after flowering season
+    - The grass is patchy after Christmas
+    - My garden is messy after family reunion
+    - Can you help plant ulam raja in my yard?
+    - My garden is full of worms after rain
+    - The grass is too long after festive holidays
+    - My garden is full of rubbish after pasar tani
+    - Can you help plant kacang panjang in my garden?
+    - My garden is full of butterflies after planting flowers
+    - The grass is muddy after open house
+    - My garden is messy after kenduri kahwin
+    - Can you help plant okra in my garden?
+    - My garden is full of mushrooms after rain
+    - The grass is patchy after Aidilfitri
+    - My garden is messy after majlis tahlil
+    - Can you help plant sweet potatoes in my yard?
+    - My garden is full of caterpillars after planting vegetables
+    - The grass is too long after Hari Gawai
+    - My garden is full of rubbish after bazaar
+    - Can you help plant kangkung in my garden?
+    - My garden is full of birds after planting fruit trees
+    - The grass is muddy after family event
+    - My garden is messy after Hari Kaamatan
+    - Can you help plant mint in my garden?
+    - My garden is full of ants after planting sugarcane
+    - The grass is patchy after balik kampung
+    - My garden is messy after majlis akikah
+    - Can you help plant basil in my yard?
+    - My garden is full of snails after planting vegetables
+    - The grass is too long after Deepavali
+    - My garden is full of rubbish after pasar malam event
+    - Can you help plant eggplant in my garden?
+    - My garden is full of bees after planting bunga raya
+    - The grass is muddy after kids’ football game
+    - My garden is messy after majlis pertunangan
+    - Can you help plant spinach in my garden?
+    - My garden is full of frogs after planting water plants
+    - The grass is patchy after school holidays
+    - My garden is messy after family potluck
+    - Can you help plant pumpkin in my yard?
+    - My garden is full of insects after planting vegetables
+    - The grass is too long after festive season
+    - My garden is full of rubbish after bazaar Aidilfitri

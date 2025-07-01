@@ -1,0 +1,113 @@
+States,Town,Lat,Lon
+Kuala Lumpur,KLCC,3.1579,101.7123
+Kuala Lumpur,Bukit Bintang,3.1466,101.7072
+Kuala Lumpur,Cheras,3.0586,101.7405
+Kuala Lumpur,Wangsa Maju,3.211,101.732
+Kuala Lumpur,Mont Kiara,3.1675,101.6518
+Kuala Lumpur,Bangsar,3.1283,101.6794
+Kuala Lumpur,Sentul,3.1805,101.6921
+Selangor,Shah Alam,3.0738,101.5183
+Selangor,Petaling Jaya,3.1073,101.6067
+Selangor,Subang Jaya,3.0432,101.5806
+Selangor,Klang,3.0333,101.45
+Selangor,Ampang,3.15,101.7667
+Selangor,Kajang,2.9935,101.7871
+Selangor,Rawang,3.3214,101.5767
+Selangor,Seri Kembangan,3.0222,101.7023
+Johor,Johor Bahru,1.4927,103.7414
+Johor,Iskandar Puteri,1.419,103.6319
+Johor,Kulai,1.6632,103.6036
+Johor,Muar,2.0442,102.5689
+Johor,Batu Pahat,1.85,102.9333
+Johor,Kluang,2.0304,103.3186
+Johor,Segamat,2.5148,102.8107
+Penang,Georgetown,5.4141,100.3288
+Penang,Bayan Lepas,5.2868,100.2644
+Penang,Butterworth,5.399,100.3638
+Penang,Bukit Mertajam,5.363,100.4667
+Penang,Nibong Tebal,5.165,100.474
+Penang,Balik Pulau,5.3564,100.2415
+Perak,Ipoh,4.5975,101.0901
+Perak,Taiping,4.85,100.7333
+Perak,Teluk Intan,4.0224,101.0206
+Perak,Sitiawan,4.2167,100.7
+Perak,Lumut,4.235,100.629
+Perak,Kampar,4.3167,101.15
+Perak,Batu Gajah,4.4667,101.05
+Pahang,Kuantan,3.8167,103.3333
+Pahang,Bentong,3.5167,101.9
+Pahang,Raub,3.8,101.85
+Pahang,Cameron Highlands,4.47,101.376
+Pahang,Temerloh,3.45,102.4167
+Pahang,Mentakab,3.4833,102.35
+Pahang,Jerantut,3.9333,102.3667
+Kedah,Alor Setar,6.121,100.3672
+Kedah,Sungai Petani,5.645,100.487
+Kedah,Kulim,5.365,100.561
+Kedah,Langkawi,6.35,99.8
+Kedah,Jitra,6.267,100.417
+Kedah,Yan,5.8,100.4
+Kedah,Kuah,6.3265,99.8432
+Kelantan,Kota Bharu,6.1333,102.25
+Kelantan,Pasir Mas,6.0434,102.142
+Kelantan,Tanah Merah,5.8,102.15
+Kelantan,Tumpat,6.2,102.1667
+Kelantan,Kuala Krai,5.5333,102.2
+Kelantan,Machang,5.7667,102.2167
+Kelantan,Bachok,6.0667,102.4
+Negeri Sembilan,Seremban,2.7297,101.9381
+Negeri Sembilan,Port Dickson,2.5228,101.7972
+Negeri Sembilan,Nilai,2.815,101.796
+Negeri Sembilan,Bahau,2.8167,102.4
+Negeri Sembilan,Rembau,2.6,102.1
+Negeri Sembilan,Tampin,2.47,102.23
+Negeri Sembilan,Kuala Pilah,2.7333,102.25
+Melaka,Melaka City,2.2,102.25
+Melaka,Alor Gajah,2.3833,102.2
+Melaka,Jasin,2.3,102.4333
+Melaka,Ayer Keroh,2.26,102.29
+Melaka,Klebang,2.2167,102.2333
+Melaka,Masjid Tanah,2.35,102.1167
+Melaka,Merlimau,2.2,102.4167
+Terengganu,Kuala Terengganu,5.33,103.14
+Terengganu,Kemaman,4.2333,103.4167
+Terengganu,Dungun,4.75,103.4167
+Terengganu,Marang,5.2167,103.2167
+Terengganu,Besut,5.7167,102.5
+Terengganu,Setiu,5.65,102.7
+Terengganu,Hulu Terengganu,5.05,102.35
+Sabah,Kota Kinabalu,5.98,116.07
+Sabah,Sandakan,5.84,118.12
+Sabah,Tawau,4.2447,117.8912
+Sabah,Lahad Datu,5.03,118.33
+Sabah,Keningau,5.35,116.1667
+Sabah,Semporna,4.4811,118.6111
+Sabah,Kudat,6.8833,116.8333
+Sarawak,Kuching,1.55,110.3333
+Sarawak,Miri,4.4,113.9833
+Sarawak,Sibu,2.3,111.8167
+Sarawak,Bintulu,3.1667,113.0333
+Sarawak,Limbang,4.75,115
+Sarawak,Sarikei,2.15,111.5167
+Sarawak,Kapit,2.0167,112.9333
+Putrajaya,Precinct 1,2.9344,101.6829
+Putrajaya,Precinct 2,2.9336,101.6911
+Putrajaya,Precinct 3,2.926,101.6879
+Putrajaya,Precinct 4,2.9206,101.6894
+Putrajaya,Precinct 5,2.912,101.6854
+Putrajaya,Precinct 6,2.9333,101.7039
+Putrajaya,Precinct 7,2.9357,101.7103
+Putrajaya,Precinct 8,2.9201,101.6992
+Putrajaya,Precinct 9,2.9133,101.7013
+Putrajaya,Precinct 10,2.9114,101.7094
+Putrajaya,Precinct 11,2.9126,101.7152
+Putrajaya,Precinct 12,2.9255,101.7151
+Putrajaya,Precinct 13,2.9184,101.7238
+Putrajaya,Precinct 14,2.9312,101.7234
+Putrajaya,Precinct 15,2.9245,101.7332
+Putrajaya,Precinct 16,2.9188,101.7393
+Putrajaya,Precinct 18,2.913,101.7271
+Putrajaya,Precinct 19,2.9097,101.7202
+Putrajaya,Precinct 20,2.9052,101.7131
+Putrajaya,Precinct Diplomatik,2.9514,101.7453
+Cyberjaya,Cyberjaya,2.9264,101.6409

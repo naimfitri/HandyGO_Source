@@ -1,0 +1,70 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Hi there
+    - Hello bot
+    - Hey handybot
+    - Good day
+    - Howdy
+    - Hola
+    - Apa khabar
+    - Selamat pagi
+    - Hai
+    - Morning
+    - What's up
+    - Salam
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - That's all for now
+    - Thanks, bye
+    - Until next time
+    - I'm done for now
+    - Talk to you later
+    - Catch you later
+    - Selamat tinggal
+    - Jumpa lagi
+    - Bye for now
+    - Thanks for the help
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: start_new_chat
+  examples: |
+    - new chat
+    - restart
+    - clear chat
+
+- intent: initialize_user_session
+  examples: |
+    - /initialize_user_session

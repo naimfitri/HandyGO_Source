@@ -1,0 +1,62 @@
+version: "3.1"
+
+rules:
+# Rule to greet the user
+- rule: greet user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+# Rule to confirm handyman selection
+- rule: confirm handyman selection
+  steps:
+  - intent: select_handyman
+  - action: action_book_handyman
+  - action: action_check_availability
+
+# Rule to confirm booking time
+- rule: confirm booking time
+  steps:
+  - intent: choose_slot_and_date
+    entities:
+      - chosen_slot
+      - chosen_date
+  - action: action_show_booking_details  # Show booking details before confirming
+
+#rule to confirm booking
+- rule: confirm booking 
+  steps:
+  - intent: confirm_booking
+  - action: action_confirm_booking
+
+# Rule to say goodbye anytime the user says goodbye
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+# Rule to say 'I am a bot' anytime the user challenges
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Initialize user session
+  steps:
+  - intent: initialize_user_session
+  - action: action_initialize_user_session
+
+- rule: Reset conversation
+  steps:
+  - intent: start_new_chat  # Define this intent in nlu.yml
+  - action: action_reset_conversation
+
+- rule: Handle easy booking requests
+  steps:
+  - intent: easy_book
+  - action: action_easy_book
+
+- rule: Direct intent trigger for cancel_request
+  steps:
+  - intent: cancel_request
+  - action: action_cancel_request
